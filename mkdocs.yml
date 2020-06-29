@@ -1,0 +1,26 @@
+site_name: Data Science Interview prep
+theme:
+  name: material
+  repo_name: singhsidhukuldeep/data-science-interview-prep
+  repo_url: https://github.com/singhsidhukuldeep/data-science-interview-prep
+  extra:
+    social:
+      - icon: fontawesome/brands/github-alt
+        link: https://github.com/singhsidhukuldeep/
+      - icon: fontawesome/brands/linkedin
+        link: https://linkedin.com/in/singhsidhukuldeep
+#  features:
+#    - tabs
+#    - instant
+  icon:
+    logo: fontawesome/solid/terminal
+    repo: fontawesome/solid/terminal
+    favicon: fontawesome/solid/terminal
+  palette:
+    scheme: default
+    primary: black
+    accent: purple
+  plugins:
+    - search:
+        lang:
+          - en
