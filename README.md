@@ -23,7 +23,7 @@
 
 This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
 
-Not only this, this platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
+Not only this, the platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
 
 **This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
 
