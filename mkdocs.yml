@@ -49,3 +49,6 @@ markdown_extensions:
       custom_checkbox: true
   - pymdownx.tabbed
   - pymdownx.tilde
+  - meta
+extra:
+  disqus: kuldeepsinghsidhu

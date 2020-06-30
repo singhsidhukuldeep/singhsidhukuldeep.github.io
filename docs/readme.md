@@ -2,7 +2,6 @@
 title: Home
 description: Home page for the platform for Data Science Interview Questions 
 disqus: kuldeepsinghsidhu
----
 
 # Home
 
