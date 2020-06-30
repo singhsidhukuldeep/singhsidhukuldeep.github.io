@@ -8,17 +8,17 @@
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
-[![Contributors](https://img.shields.io/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
 
-[![](https://img.shields.io/github/forks/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/network/members)
-[![](https://img.shields.io/github/stars/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/stargazers)
-[![](https://img.shields.io/github/watchers/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/watchers)
-[![](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
+[![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
+[![Contributors](https://img.shields.io/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
+[![Forks](https://badgen.net/github/forks/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/network/members)
+[![Stars](https://badgen.net/github/stars/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/stargazers)
+[![Watchers](https://badgen.net/github/watchers/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/watchers)
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
-
+[![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
 </p>
 
 This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
