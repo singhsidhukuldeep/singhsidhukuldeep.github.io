@@ -14,7 +14,9 @@ Contribution in any form will be deeply appreciated. 🙏
 
 ### Add questions
 
-❓ Add your questions [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues). Please ensure to provide a detailed description to allow your fellow contributors to understand your question and answer them to your satisfaction.
+❓ Add your questions [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues). Please ensure to provide a detailed description to allow your fellow contributors to understand your questions and answer them to your satisfaction.
+
+[![Add New question](https://img.shields.io/badge/Use%20label-Interview%20Questions-%3CCOLOR%3E.svg)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues/new)
 
 🤝 Please note that as of now, you cannot directly add a question via a pull request. This will help us to maintain the **quality** of the content **for you**.
 
@@ -31,7 +33,9 @@ Contribution in any form will be deeply appreciated. 🙏
 * [ ] Add PyTorch questions
 * [ ] Add list of learning resources
 
-### Issues
+### Issues 
+
+[![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 
 🔧 To report any issues find me on [LinkedIn](#maintained-by) or [raise an issue](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) on GitHub.
 
@@ -103,7 +107,7 @@ pip3 install mkdocs-material
     This doesn't mean that such feature won't be added in the future. 
     *"Never say Never"*
     
-    But as of now neither there is a plan nor data to do so. 😢
+    But as of now there is neither plan nor data to do so. 😢
 
 * Why is this platform free? 🤗
 
