@@ -1,7 +1,7 @@
+[![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
+
 # data-science-interview-prep
 <p align="center">
-
-[![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
 [![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fdata-science-interview-prep%2F)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
