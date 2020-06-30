@@ -1,14 +1,16 @@
-site_name: Data Science Interview prep
+site_name: Data Science Interview preparation
 repo_name: singhsidhukuldeep/data-science-interview-prep
 repo_url: https://github.com/singhsidhukuldeep/data-science-interview-prep
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
+    - icon: octicons/mark-github-16
       link: https://github.com/singhsidhukuldeep/
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/singhsidhukuldeep
     - icon: fontawesome/brands/stack-overflow
       link: https://stackoverflow.com/u/7182350/
+    - icon: octicons/globe-16
+      link: http://kuldeepsinghsidhu.com
     - icon: fontawesome/brands/git-alt
       link: https://github.com/singhsidhukuldeep/data-science-interview-prep
 theme:
@@ -28,3 +30,22 @@ theme:
     - search:
         lang:
           - en
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed
+  - pymdownx.tilde

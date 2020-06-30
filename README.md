@@ -1,48 +1,49 @@
 # data-science-interview-prep
+<p align="center">
 
-## Setup
+[![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
 
-**Important:** *It is strongly adviced to use virtual environment and not change anything in `gh-pages`*
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
+[![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fdata-science-interview-prep%2F)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
+[![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
+[![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
+[![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
+[![Contributors](https://img.shields.io/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
 
-* **`Linux`** Systems:
+[![](https://img.shields.io/github/forks/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/network/members)
+[![](https://img.shields.io/github/stars/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/stargazers)
+[![](https://img.shields.io/github/watchers/singhsidhukuldeep/data-science-interview-prep?style=social)](https://github.com/singhsidhukuldeep/data-science-interview-prep/watchers)
+[![](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
 
-    ```shell
-    python3 -m venv ./venv
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 
-    source venv/bin/activate
+</p>
 
-    pip3 install -r requirements.txt
-    ```
+This is a completely open-source project for maintaining curated list of interview questions and answers for people preparing for such interviews. 
 
-    ```shell
-    deactivate
-    ```
+You can also find other materials like tutorials, online materials, etc on the platform.
 
-* **`Windows`** Systems:
+**This is maintained by you!** You can answer/ improve existing questions or you can send new questions that you faced during interviews.
 
-    ```shell
-    python3 -m venv ./venv
+## Credits
 
-    venv\Scripts\activate
+### Maintained by
 
-    pip3 install -r requirements.txt
-    ```
+***Kuldeep Singh Sidhu***
 
-    ```shell
-    venv\Scripts\deactivate
-    ```
-  
-## Useful Commands
+Github: [github/singhsidhukuldeep](https://github.com/singhsidhukuldeep)
+`https://github.com/singhsidhukuldeep`
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-* `mkdocs gh-deploy` - Use `mkdocs gh-deploy --help` to get a full list of options available for the `gh-deploy` command.
-    Be aware that you will not be able to review the built site before it is pushed to GitHub. Therefore, you may want to verify any changes you make to the docs beforehand by using the `build` or `serve` commands and reviewing the built files locally.
-    
-## Useful Documents
+Website: [Kuldeep Singh Sidhu (Website)](http://kuldeepsinghsidhu.com)
+`http://kuldeepsinghsidhu.com`
 
-* MkDocs: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidhukuldeep/)
+`https://www.linkedin.com/in/singhsidhukuldeep/`
 
-* Theme: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+### Contributors
+
+The full list of all the contributors is available [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
+
+[![website](https://forthebadge.com/images/badges/built-with-love.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
