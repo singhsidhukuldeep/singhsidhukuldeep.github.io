@@ -2,28 +2,28 @@
 
 ## Introduction
 
-This is a completely open-source project for maintaining curated list of interview questions and answers for people preparing for such interviews. 
+This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
 
-You can also find other materials like tutorials, online materials, etc on the platform.
+Not only this, this platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
 
-**This is maintained by you!** You can answer/ improve existing questions or you can send new questions that you faced during interviews.
+**This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
 
-## Contribute to the project
+## Contribute to the platform
 
-Any contribution is deeply appreciated. 🙏
+Contribution in any form will be deeply appreciated. 🙏
 
-### Add a question
+### Add questions
 
-❓ Add your question [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues). Add a detailed description of your question so that any person with enough subject knowledge is able to understand your question and frame the answer.
+❓ Add your questions [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues). Please ensure to provide a detailed description to allow your fellow contributors to understand your question and answer them to your satisfaction.
 
-As of now, you cannot directly add a question via a pull request. This is to maintain the quality of the content.
+🤝 Please note that as of now, you cannot directly add a question via a pull request. This will help us to maintain the **quality** of the content **for you**.
 
 ### Add answers/topics 
 
 📝 These are the answers/topics that need your help at the moment
 
 * [x] Add documentation for the project
-* [ ] Python common DSA question
+* [ ] Add python common DSA interview questions
 * [ ] Add Major ML topics
 * [ ] Add Pandas questions
 * [ ] Add NumPy questions
@@ -33,7 +33,7 @@ As of now, you cannot directly add a question via a pull request. This is to mai
 
 ### Issues
 
-🔧 *You can report any issues* 🧐 *that you find to me on [LinkedIn](#maintained-by) or [raise an issue](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) in GitHub*
+🔧 To report any issues find me on [LinkedIn](#maintained-by) or [raise an issue](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) on GitHub.
 
 🛠 You can also solve existing [issues on GitHub](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) and create a pull request.
 
@@ -89,34 +89,34 @@ pip3 install mkdocs-material
     
 ## Useful Documents
 
-* MkDocs: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+* 📑 MkDocs: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
 
-* Theme: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+* 🎨 Theme: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 
 ## FAQ
 
 * Can I filter questions based on companies? 🤪
 
-As much as this platform is meant to help with your interview preparation. It is not a sure shot short-cut to cracking an interview.
-Think of this platform where you practice the skills that you have from a interview perspective, 
-keeping that in mind the questions are sorted by topics but not by companies. 🤓
+    As much as this platform aims to help you with your interview preparation, it is not a short-cut to crack one.
+    Think of this platform as a practicing field to help you sharpen your skills for your interview processes. However, for your convenience we have sorted all the questions by topics for you. 🤓
 
-This doesn't mean that such feature won't be added in the future. "*Never say Never*" But as of now neither there is a plan nor data to do so. 😢
+    This doesn't mean that such feature won't be added in the future. 
+    *"Never say Never"*
+    
+    But as of now neither there is a plan nor data to do so. 😢
 
 * Why is this platform free? 🤗
 
-Currently there is no major cost involved in maintaining this project other than time and effort that is put in by every [contributor](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors). 
-If you want to help you can [contribute here](#contribute-to-the-project). 
-
-If you still want to pay for something that is free, we would request you to donate it to a charity 😇 of your choice instead.
+    Currently there is no major cost involved in maintaining this platform other than time and effort that is put in by every [contributor](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors). 
+    If you want to help you can [contribute here](#contribute-to-the-platform). 
+    
+    If you still want to pay for something that is free, we would request you to donate it to a charity of your choice instead. 😇
 
 ## Credits
 
 ### Maintained by
 
 👨‍🎓 ***Kuldeep Singh Sidhu*** 
-
-🔧 *You can report any issues* 🧐 *that you find to me on LinkedIn or [raise an issue](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) in GitHub*
 
 Github: [github/singhsidhukuldeep](https://github.com/singhsidhukuldeep)
 `https://github.com/singhsidhukuldeep`

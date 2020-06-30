@@ -21,11 +21,11 @@
 
 </p>
 
-This is a completely open-source project for maintaining curated list of interview questions and answers for people preparing for such interviews. 
+This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
 
-You can also find other materials like tutorials, online materials, etc on the platform.
+Not only this, this platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
 
-**This is maintained by you!** You can answer/ improve existing questions or you can send new questions that you faced during interviews.
+**This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
 
 ## Credits
 
