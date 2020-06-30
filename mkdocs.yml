@@ -21,7 +21,7 @@ theme:
   icon:
     logo: fontawesome/solid/terminal
     repo: fontawesome/brands/git-alt
-    favicon: fontawesome/solid/terminal
+#  favicon: fontawesome/solid/terminal
   palette:
     scheme: default
     primary: black
