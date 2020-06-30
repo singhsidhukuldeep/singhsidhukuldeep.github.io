@@ -1,7 +1,6 @@
 ---
 title: Home
 description: Home page for the platform for Data Science Interview Questions 
-disqus: kuldeepsinghsidhu
 ---
 
 # Home
@@ -31,8 +30,39 @@ Contribution in any form will be deeply appreciated. 🙏
 📝 These are the answers/topics that need your help at the moment
 
 * [x] Add documentation for the project
+* [ ] Online Material for Learning
+* [ ] Cheat Sheets
+    * [ ] Django
+    * [ ] Flask
+    * [ ] Numpy
+    * [ ] Pandas
+    * [ ] PySpark
+    * [ ] Python
+    * [ ] RegEx
+    * [ ] SQL
+* [ ] NLP Interview Questions
 * [ ] Add python common DSA interview questions
 * [ ] Add Major ML topics
+    * [ ] Linear Regression 
+    * [ ] Logistic Regression 
+    * [ ] SVM 
+    * [ ] Random Forest 
+    * [ ] Gradient boosting 
+    * [ ] PCA 
+    * [ ] Collaborative Filtering 
+    * [ ] K-means clustering 
+    * [ ] kNN 
+    * [ ] ARIMA 
+    * [ ] Neural Networks 
+    * [ ] Decision Trees 
+    * [ ] Overfitting, Underfitting
+    * [ ] Unbalanced, Skewed data
+    * [ ] Activation functions relu/ leaky relu
+    * [ ] Normalization
+    * [ ] DBSCAN 
+    * [ ] Normal Distribution 
+    * [ ] Precision, Recall 
+    * [ ] Loss Function MAE, RMSE 
 * [ ] Add Pandas questions
 * [ ] Add NumPy questions
 * [ ] Add TensorFlow questions
