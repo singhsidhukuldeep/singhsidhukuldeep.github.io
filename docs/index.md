@@ -82,7 +82,7 @@ pip3 install mkdocs
 pip3 install mkdocs-material
 ```  
 
-## Useful Commands
+### Useful Commands
 
 * `mkdocs serve` - Start the live-reloading docs server.
 * `mkdocs build` - Build the documentation site.
@@ -91,7 +91,7 @@ pip3 install mkdocs-material
     Be aware that you will not be able to review the built site before it is pushed to GitHub. Therefore, you may want to verify any changes you make to the docs beforehand by using the `build` or `serve` commands and reviewing the built files locally.
 * ~~`mkdocs new [dir-name]` - Create a new project.~~ No need to create a new project
     
-## Useful Documents
+### Useful Documents
 
 * 📑 MkDocs: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
 
