@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://singhsidhukuldeep.github.io/data-science-interview-prep/">
-    <img src="https://repository-images.githubusercontent.com/275878203/f5c01380-bb13-11ea-8a8e-8eb8211c2ad7" width="320" alt="Go to website">
+    <img src="https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2" width="320" alt="Go to website">
   </a>
 </p>
 
