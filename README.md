@@ -1,6 +1,13 @@
+<!--<p align="center">
 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
+</p>-->
 
-# data-science-interview-prep
+<p align="center">
+<a href="https://singhsidhukuldeep.github.io/data-science-interview-prep/"><img src="https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg" alt="Go to website"/></a>
+</p>
+
+
+# Data Science Interview Prep
 <p align="center">
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
@@ -8,6 +15,7 @@
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
+[![DependaBot](https://api.dependabot.com/badges/status?host=github&repo=singhsidhukuldeep/data-science-interview-prep)](https://dependabot.com/)
 
 [![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
 [![Contributors](https://badgen.net/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
@@ -19,6 +27,7 @@
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
 </p>
 
@@ -32,7 +41,7 @@ Not only this, the platform will also serve as one point destination for all you
 
 ### Maintained by
 
-***Kuldeep Singh Sidhu***
+👨‍🎓 ***Kuldeep Singh Sidhu*** 
 
 Github: [github/singhsidhukuldeep](https://github.com/singhsidhukuldeep)
 `https://github.com/singhsidhukuldeep`
@@ -45,6 +54,7 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 
 ### Contributors
 
-The full list of all the contributors is available [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
+😎 The full list of all the contributors is available [here](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
+
 
 [![website](https://forthebadge.com/images/badges/built-with-love.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)

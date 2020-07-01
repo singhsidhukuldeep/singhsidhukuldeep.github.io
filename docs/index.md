@@ -77,6 +77,16 @@ Contribution in any form will be deeply appreciated. 🙏
 
 🛠 You can also solve existing [issues on GitHub](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) and create a pull request.
 
+## Features 
+
+* **🎨 Beautiful:** The design is built on top of most popular libraries like MkDocs and material which allows the platform to be responsive and to work on all sorts of devices – from mobile phones to wide-screens. The underlying fluid layout will always adapt perfectly to the available screen space.
+
+* **🧐 Searchable:** almost magically, all the content on the website is searchable without any further ado. The built-in search – server-less – is fast and accurate in responses to any of the queries.
+
+* **🙌 Accessible:**
+    * **Easy to use:** 👌 The website is hosted on github-pages and is free and open to use to over 40 million users of GitHub in 100+ countries.
+    * **Easy to contribute:** 🤝 The website embodies the concept of collaboration to the latter. Allowing anyone to add/improve the content. To make contributing easy, everything is written in MarkDown and then compiled to beautiful html.
+
 ## Setup
 
 > No setup is required for usage of the platform
@@ -178,6 +188,7 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
+[![DependaBot](https://api.dependabot.com/badges/status?host=github&repo=singhsidhukuldeep/data-science-interview-prep)](https://dependabot.com/)
 
 [![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
 [![Contributors](https://badgen.net/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
@@ -189,4 +200,5 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+[![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
