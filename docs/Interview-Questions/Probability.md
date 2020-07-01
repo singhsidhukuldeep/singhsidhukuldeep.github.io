@@ -66,7 +66,7 @@ Possibilities
 So if we had 2 roles, average score would be:
 
 ```
-[We role again of current score is less than 3.4]
+[We role again if current score is less than 3.4]
 (3.5)*(1/6) + (3.5)*(1/6) + (3.5)*(1/6) 
 +
 (4)*(1/6) + (5)*(1/6) + (6)*(1/6) [Decide not to role again]
@@ -92,7 +92,7 @@ Possibilities
 So if we had 3 roles, average score would be:
 
 ```
-[We role again of current score is less than 4.25]
+[We role again if current score is less than 4.25]
 (4.25)*(1/6) + (4.25)*(1/6) + (4.25)*(1/6) + (4.25)*(1/6) 
 +
 (5)*(1/6) + (6)*(1/6) [[Decide not to role again]
