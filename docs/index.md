@@ -69,13 +69,29 @@ Contribution in any form will be deeply appreciated. 🙏
 * [ ] Add PyTorch questions
 * [ ] Add list of learning resources
 
-### Issues 
+### Report/Solve Issues 
 
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 
 🔧 To report any issues find me on [LinkedIn](#maintained-by) or [raise an issue](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) on GitHub.
 
 🛠 You can also solve existing [issues on GitHub](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues) and create a pull request.
+
+### Say Thanks
+
+😊 If this platform helped you in any way, it would be great if you could share it with others.
+
+```
+Checkout this 👇 platform 👇 for data science content:
+👉 https://singhsidhukuldeep.github.io/data-science-interview-prep/ 👈
+
+#data-science #machine-learning #interview-preparation 
+```
+
+You can also star the repository on GitHub 
+[![Stars](https://badgen.net/github/stars/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/stargazers) 
+and watch-out for any updates
+[![Watchers](https://badgen.net/github/watchers/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/watchers)
 
 ## Features 
 
@@ -186,10 +202,11 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
 [![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fdata-science-interview-prep%2F)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
-[![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
+[![GitHub up-time BOT](https://badgen.net/uptime-robot/month/ur967659-422c6e77bfb79bb6a47c642c)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
 [![DependaBot](https://api.dependabot.com/badges/status?host=github&repo=singhsidhukuldeep/data-science-interview-prep)](https://dependabot.com/)
 
+[![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 [![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
 [![Contributors](https://badgen.net/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
 [![Forks](https://badgen.net/github/forks/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/network/members)
