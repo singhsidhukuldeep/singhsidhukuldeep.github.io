@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://singhsidhukuldeep.github.io/data-science-interview-prep/">
-    <img src="https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2" width="320" alt="Go to website">
+    <img src="https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2" width="220" alt="Go to website">
   </a>
 </p>
 
@@ -65,3 +65,13 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 
 
 [![website](https://forthebadge.com/images/badges/built-with-love.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
+
+## Say Thanks
+
+😊 If this platform helped you in any way, it would be great if you could share it with others.
+
+[![](https://img.shields.io/badge/Share%20to-Linked%20In-blue?logo=linkedin&style=flat&labelColor=blue&color=black)](https://www.linkedin.com/sharing/share-offsite/?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:&url=https://singhsidhukuldeep.github.io/data-science-interview-prep/)
+[![](https://img.shields.io/badge/Share%20to-Twitter-blue?logo=twitter&style=flat&labelColor=black&color=blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:%20%F0%9F%91%89%20https://singhsidhukuldeep.github.io/data-science-interview-prep/%20%F0%9F%91%88%20#data-science%20#machine-learning%20#interview-preparation)
+[![](https://img.shields.io/badge/Share%20to-Facebook-blue?logo=facebook&style=flat&labelColor=black&color=blue)](https://www.facebook.com/sharer.php?s=100&p[title]=Free%20Data%20Science%20Preperation%20Platform&p[summary]=Check%20out%20this%20&p[url]=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fdata-science-interview-prep%2F)
+
+👉 [https://singhsidhukuldeep.github.io/data-science-interview-prep/](https://singhsidhukuldeep.github.io/data-science-interview-prep/) 👈
