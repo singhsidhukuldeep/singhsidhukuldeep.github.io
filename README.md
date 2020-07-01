@@ -14,7 +14,14 @@
 
 
 # Data Science Interview Prep
-<p align="center">
+
+This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
+
+Not only this, the platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
+
+**This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
+
+## Current Status
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
 [![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fdata-science-interview-prep%2F)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
@@ -35,13 +42,6 @@
 [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
 [![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=social)](https://github.com/singhsidhukuldeep?tab=followers)
-</p>
-
-This is a completely open-source platform for maintaining curated list of interview questions and answers for people looking and preparing for data science opportunities.
-
-Not only this, the platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
-
-**This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
 
 ## Credits
 
