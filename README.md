@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://singhsidhukuldeep.github.io/data-science-interview-prep/">
+    <img src="https://repository-images.githubusercontent.com/275878203/f5c01380-bb13-11ea-8a8e-8eb8211c2ad7" width="320" alt="Go to website">
+  </a>
+</p>
+
 <!--<p align="center">
 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
 </p>-->
