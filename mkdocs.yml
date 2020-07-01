@@ -61,10 +61,13 @@ markdown_extensions:
 # Page tree
 nav:
   - Home: index.md
-  - Suggested Learning Paths: Suggested-Learning-Paths.md
+
+  - Suggested Learning Path: Suggested-Learning-Paths.md
+
   - Online Resources:
       - Online Study Material: Online-Material/Online-Material-for-Learning.md
       - Popular Blogs: Online-Material/popular-resouces.md
+
   - ML Topics:
       - Machine-Learning\ARIMA.md
       - Machine-Learning\Activation functions.md
@@ -104,6 +107,7 @@ nav:
       - Production Deployment: Deploying-ML-models/deploying-ml-models.md
   - Interview Questions:
       - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
+      - Probability: Interview-Questions/Probability.md
 
 
 # Copyright
