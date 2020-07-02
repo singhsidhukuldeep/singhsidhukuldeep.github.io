@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Data Science 
 description: Home page for the platform for Data Science Interview Questions 
 ---
 
