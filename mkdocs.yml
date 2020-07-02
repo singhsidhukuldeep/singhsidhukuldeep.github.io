@@ -2,8 +2,10 @@
 site_name: Data Science Interview preparation
 site_author: Kuldeep Singh Sidhu
 site_description: >-
-  This is a completely open-source platform for maintaining curated list of interview questions
-  and answers for people looking and preparing for data science opportunities.
+  This is a completely open-source platform for
+  maintaining curated list of interview questions
+  and answers for people looking and preparing
+  for data science opportunities.
 
 # Repository
 repo_name: singhsidhukuldeep/data-science-interview-prep
