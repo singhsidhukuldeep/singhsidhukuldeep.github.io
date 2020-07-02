@@ -181,9 +181,13 @@ pip3 install mkdocs-material
     
 ### Useful Documents
 
-* 📑 MkDocs: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+* 📑 MkDocs: 
+    * GitHub: [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+    * Documentation: [https://www.mkdocs.org/](https://www.mkdocs.org/)
 
-* 🎨 Theme: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+* 🎨 Theme: 
+    * GitHub: [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
+    * Documentation: [https://squidfunk.github.io/mkdocs-material/getting-started/](https://squidfunk.github.io/mkdocs-material/getting-started/)
 
 ## FAQ
 

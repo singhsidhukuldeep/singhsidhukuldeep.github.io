@@ -33,10 +33,17 @@ theme:
     scheme: default
     primary: black
     accent: purple
-  plugins:
-    - search:
-        lang:
-          - en
+
+#plugins
+plugins:
+  - search:
+      lang:
+        - en
+  - git-revision-date-localized:
+      type: date
+  - minify:
+      minify_html: true
+
 markdown_extensions:
   - pymdownx.arithmatex
   - pymdownx.betterem:
@@ -57,6 +64,7 @@ markdown_extensions:
   - pymdownx.tabbed
   - pymdownx.tilde
   - meta
+  - codehilite
 
 # Page tree
 nav:
