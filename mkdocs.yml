@@ -71,22 +71,22 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Home: index.md
+  - 🏡 Home: index.md
 
-  - Suggested Learning Path: Suggested-Learning-Paths.md
+  - 📅 Suggested Learning Paths: Suggested-Learning-Paths.md
 
-  - Online Resources:
+  - 👨🏾‍💻 Online Resources:
       - Online Study Material: Online-Material/Online-Material-for-Learning.md
       - Popular Blogs: Online-Material/popular-resouces.md
 
-  - As fast as possible:
+  - 🚴🏽‍♀ As fast as possible:
       - Introduction: as-fast-as-possible/index.md
       - Neural Networks: as-fast-as-possible/Neural-Networks.md
       - Deep Natural Language Processing: as-fast-as-possible/Deep-NLP.md
       - Deep Computer Vision: as-fast-as-possible/Deep-CV.md
       - Tensorflow 2 with Keras: as-fast-as-possible/TF2-Keras.md
 
-  - ML Topics:
+  - ‍🎓 ML Topics:
       - Machine-Learning\ARIMA.md
       - Machine-Learning\Activation functions.md
       - Machine-Learning\Collaborative Filtering.md
@@ -108,7 +108,7 @@ nav:
       - Machine-Learning\Unbalanced, Skewed data.md
       - Machine-Learning\kNN.md
 
-  - Cheat Sheets:
+  - 📝 Cheat Sheets:
       - Python: Cheat-Sheets/Python.md
       - NumPy: Cheat-Sheets/NumPy.md
       - Pandas: Cheat-Sheets/Pandas.md
@@ -122,14 +122,14 @@ nav:
       - Django: Cheat-Sheets/Django.md
       - PySpark: Cheat-Sheets/PySpark.md
 
-  - Deploying ML Models:
+  - 🎌 Deploying ML Models:
       - Production Deployment: Deploying-ML-models/deploying-ml-models.md
 
-  - Interview Questions:
+  - 👨🏿‍🏫 Interview Questions:
       - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
       - Probability: Interview-Questions/Probability.md
 
-  - Projects: projects.md
+  - 📳 Projects: projects.md
 
 # Copyright
 copyright: Copyright &copy; 2020 - 2021 <strong>Kuldeep Singh Sidhu</strong>

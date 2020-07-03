@@ -11,6 +11,12 @@ These are the projects that you can take inspiration from and try to improve on 
 
 ![Number of Projects](https://img.shields.io/badge/Number%20of%20Projects-9-blue?style=flat&labelColor=black&color=blue)
 
+## Popular Sources
+
+[![Github](https://img.shields.io/badge/GitHub-Repository-blue?logo=github&style=flat)](https://github.com)
+[![Google Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com)
+[![]()]()
+
 ## List of projects 
 
 ### Natural Language processing (NLP)

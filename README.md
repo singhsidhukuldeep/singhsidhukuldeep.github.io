@@ -44,6 +44,35 @@ Not only this, the platform will also serve as one point destination for all you
 [![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=plastic&logo=github)](https://github.com/singhsidhukuldeep?tab=followers)
 
+## Content 💻
+
+  - 📅 Suggested Learning Paths
+
+  - 👨🏾‍💻 Online Resources
+
+  - 🚴🏽‍♀ As fast as possible
+
+  - 🎓 ML Topics
+
+  - 📝 Cheat Sheets
+
+  - 🎌 Deploying ML Models
+
+  - 👨🏿‍🏫 Interview Question
+  
+  - 📳 Projects
+
+## Features 
+
+* **🎨 Beautiful:** The design is built on top of most popular libraries like MkDocs and material which allows the platform to be responsive and to work on all sorts of devices – from mobile phones to wide-screens. The underlying fluid layout will always adapt perfectly to the available screen space.
+
+* **🧐 Searchable:** almost magically, all the content on the website is searchable without any further ado. The built-in search – server-less – is fast and accurate in responses to any of the queries.
+
+* **🙌 Accessible:**
+    * **Easy to use:** 👌 The website is hosted on github-pages and is free and open to use to over 40 million users of GitHub in 100+ countries.
+    * **Easy to contribute:** 🤝 The website embodies the concept of collaboration to the latter. Allowing anyone to add/improve the content. To make contributing easy, everything is written in MarkDown and then compiled to beautiful html.
+
+
 ## Credits
 
 ### Maintained by
