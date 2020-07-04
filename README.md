@@ -44,7 +44,7 @@ Not only this, the platform will also serve as one point destination for all you
 [![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=plastic&logo=github)](https://github.com/singhsidhukuldeep?tab=followers)
 
-## Content 💻
+## Content 💻 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/data-science-interview-prep/)
 
   - 📅 Suggested Learning Paths
 
@@ -58,7 +58,7 @@ Not only this, the platform will also serve as one point destination for all you
 
   - 🎌 Deploying ML Models
 
-  - 👨🏿‍🏫 Interview Question
+  - 👨🏿‍🏫 Interview Questions
   
   - 📳 Projects
 
