@@ -126,6 +126,9 @@ nav:
       - Production Deployment: Deploying-ML-models/deploying-ml-models.md
 
   - 👨🏿‍🏫 Interview Questions:
+      - Software Development:
+          - DSA (Data Structures & Algorithms): Interview-Questions/data-structures-algorithms.md
+          - System Design: Interview-Questions/System-design.md
       - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
       - Probability: Interview-Questions/Probability.md
 
