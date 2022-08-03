@@ -16,3 +16,7 @@ vscode:
     - ms-toolsai.jupyter
     - ms-toolsai.jupyter-keymap
     - ms-toolsai.jupyter-renderers
+
+ports:
+  - port: 8000
+    onOpen: open-preview
