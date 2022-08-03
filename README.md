@@ -28,10 +28,11 @@ Not only this, the platform will also serve as one point destination for all you
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/data-science-interview-prep/github-pages)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![GitHub up-time BOT](https://badgen.net/uptime-robot/month/ur967659-422c6e77bfb79bb6a47c642c)](https://github.com/singhsidhukuldeep/data-science-interview-prep/deployments/activity_log?environment=github-pages)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
+[![Pull Requests](https://img.shields.io/github/issues-pr/singhsidhukuldeep/data-science-interview-prep?style=flat)](https://img.shields.io/github/issues-pr/singhsidhukuldeep/data-science-interview-prep)
 
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/issues)
 [![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/commits/master)
-[![Contributors](https://badgen.net/github/contributors/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
+[![Contributors](https://badgen.net/github/issues-pr/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/graphs/contributors)
 [![Forks](https://badgen.net/github/forks/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/network/members)
 [![Stars](https://badgen.net/github/stars/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/stargazers)
 [![Watchers](https://badgen.net/github/watchers/singhsidhukuldeep/data-science-interview-prep)](https://github.com/singhsidhukuldeep/data-science-interview-prep/watchers)
@@ -71,6 +72,9 @@ Not only this, the platform will also serve as one point destination for all you
     * **Easy to use:** 👌 The website is hosted on github-pages and is free and open to use to over 40 million users of GitHub in 100+ countries.
     * **Easy to contribute:** 🤝 The website embodies the concept of collaboration to the latter. Allowing anyone to add/improve the content. To make contributing easy, everything is written in MarkDown and then compiled to beautiful html.
 
+## Contribute
+
+[![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Contribute--Environment-blue?logo=gitpod)](https://gitpod.io/#https://github.com/singhsidhukuldeep/data-science-interview-prep)
 
 ## Credits
 
