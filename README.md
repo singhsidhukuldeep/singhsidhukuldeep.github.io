@@ -108,3 +108,10 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 ![](https://img.shields.io/badge/Share-Copy%20from%20here%20%F0%9F%91%87-blue?logo=stackshare&style=flat&labelColor=black&color=success)
 
 👉 [https://singhsidhukuldeep.github.io/data-science-interview-prep/](https://singhsidhukuldeep.github.io/data-science-interview-prep/) 👈
+
+
+<!-- apt-get install -y tzdata
+
+# Maybe you will need to reconfigure the timezone as well:
+ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata -->
