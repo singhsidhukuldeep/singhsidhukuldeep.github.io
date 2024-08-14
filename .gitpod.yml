@@ -6,6 +6,9 @@ tasks:
   - name: setup
     init: |
       pip install -r requirements.txt
+      sudo apt-get install -y tzdata
+      sudo ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
+      sudo dpkg-reconfigure -f noninteractive tzdata
       mkdocs serve
 
 

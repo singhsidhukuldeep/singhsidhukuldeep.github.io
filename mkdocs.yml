@@ -121,6 +121,7 @@ nav:
       - Flask: Cheat-Sheets/Flask.md
       - Django: Cheat-Sheets/Django.md
       - PySpark: Cheat-Sheets/PySpark.md
+      - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
 
   - 🎌 Deploying ML Models:
       - Production Deployment: Deploying-ML-models/deploying-ml-models.md

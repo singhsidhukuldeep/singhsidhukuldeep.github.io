@@ -72,6 +72,16 @@ Not only this, the platform will also serve as one point destination for all you
     * **Easy to use:** 👌 The website is hosted on github-pages and is free and open to use to over 40 million users of GitHub in 100+ countries.
     * **Easy to contribute:** 🤝 The website embodies the concept of collaboration to the latter. Allowing anyone to add/improve the content. To make contributing easy, everything is written in MarkDown and then compiled to beautiful html.
 
+  
+<h2 align="center">🌟⭐✨STAR ME✨⭐🌟</h2>
+
+<p align="center">
+  <b>You can give me a small 🤓 dopmaine 🤝 support by ⭐STARRING⭐ this project</b>
+  
+<img src="https://api.star-history.com/svg?repos=singhsidhukuldeep/data-science-interview-prep&type=Date" width="70%" alt="🌟⭐✨STAR ME✨⭐🌟">
+</p>
+
+
 ## Contribute
 
 [![Open in Gitpod](https://img.shields.io/badge/Gitpod-Ready--to--Contribute--Environment-blue?logo=gitpod)](https://gitpod.io/#https://github.com/singhsidhukuldeep/data-science-interview-prep)
@@ -108,3 +118,10 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 ![](https://img.shields.io/badge/Share-Copy%20from%20here%20%F0%9F%91%87-blue?logo=stackshare&style=flat&labelColor=black&color=success)
 
 👉 [https://singhsidhukuldeep.github.io/data-science-interview-prep/](https://singhsidhukuldeep.github.io/data-science-interview-prep/) 👈
+
+
+<!-- apt-get install -y tzdata
+
+# Maybe you will need to reconfigure the timezone as well:
+ln -fs /usr/share/zoneinfo/Etc/UTC /etc/localtime
+dpkg-reconfigure -f noninteractive tzdata -->
