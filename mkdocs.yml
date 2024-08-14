@@ -23,8 +23,11 @@ extra:
       link: http://kuldeepsinghsidhu.com
     - icon: fontawesome/brands/git-alt
       link: https://github.com/singhsidhukuldeep/data-science-interview-prep
+
 theme:
   name: material
+  custom_dir: overrides
+
 #  features:
 #    - tabs
 #    - instant
@@ -33,10 +36,30 @@ theme:
     repo: fontawesome/brands/git-alt
 #  favicon: fontawesome/solid/terminal
   palette:
-    scheme: default
-    primary: black
-    accent: purple
 
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: deep purple
+      accent: purple
+      scheme: default 
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: deep purple
+      accent: purple
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
 #plugins
 plugins:
   - search:
