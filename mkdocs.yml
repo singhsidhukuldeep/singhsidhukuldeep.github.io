@@ -12,6 +12,8 @@ repo_name: singhsidhukuldeep/singhsidhukuldeep.github.io
 repo_url: https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io
 
 extra:
+  generator: false
+
   social:
     - icon: octicons/mark-github-16
       link: https://github.com/singhsidhukuldeep/
@@ -24,16 +26,28 @@ extra:
     - icon: octicons/globe-16
       link: http://kuldeepsinghsidhu.com
 
+  analytics:
+    provider: google
+    property: G-EVGNTG49J7
+
   consent:
-    title: Cookie consent
+    title: Cookie Consent <br><small>Help Us ✌️, Help You 🫵</small>
     actions:
       - accept
-      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google
+        checked: true
+      github:
+        name: GitHub
+        checked: true
     description: >- 
-      We use cookies to recognize your repeated visits and preferences, as well
-      as to measure the effectiveness of our documentation and whether users
-      find what they're searching for. With your consent, you're helping us to
-      make our documentation better.
+      We use cookies to recognize your repeated visits and preferences, improve and offer better services🤗
+      <br>
+      With your consent🤝, you're helping us to give you better experience. 
+      <br>
+      <a herf="https://singhsidhukuldeep.github.io/privacy">Read about privacy policy here<a>
 
 theme:
   name: material
@@ -49,6 +63,9 @@ theme:
     - search.share
     - search.suggest
     - content.tooltips
+    - navigation.instant.progress
+    - navigation.path
+    - navigation.top
 
   icon:
     logo: fontawesome/solid/terminal
@@ -82,9 +99,12 @@ theme:
         name: Switch to system preference
 #plugins
 plugins:
+  - optimize
   - search:
       lang:
         - en
+  # - privacy:
+      # cache: false
   - git-revision-date-localized:
       type: date
   - minify:
@@ -188,8 +208,8 @@ nav:
 
   - 📳 Projects: projects.md
 
-  - Privacy Policy: privacy.md
-  - Contact: contact.md
+  - <small>Privacy Policy</small>: privacy.md
+  - <small>Contact</small>: contact.md
 
 # Copyright
 copyright: Copyright &copy; 2020 - <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Kuldeep Singh Sidhu</strong>

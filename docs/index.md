@@ -1,4 +1,5 @@
 ---
+comments: true
 title: Data Science 
 description: Home page for the platform for Data Science Interview Questions 
 ---
@@ -231,7 +232,7 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 
 ## Current Status
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://img.shields.io/badge/Maintained%3F-yes-green.svg)
 [![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fsinghsidhukuldeep.github.io%2F)](https://singhsidhukuldeep.github.io/)
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/singhsidhukuldeep.github.io/github-pages)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/deployments/activity_log?environment=github-pages)
 [![GitHub up-time BOT](https://badgen.net/uptime-robot/month/ur967659-422c6e77bfb79bb6a47c642c)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/deployments/activity_log?environment=github-pages)
