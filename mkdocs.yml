@@ -176,5 +176,7 @@ nav:
 
   - 📳 Projects: projects.md
 
+  - Privacy Policy: privacy.md
+
 # Copyright
 copyright: Copyright &copy; 2020 - <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Kuldeep Singh Sidhu</strong>
