@@ -8,8 +8,8 @@ site_description: >-
   for data science opportunities.
 
 # Repository
-repo_name: singhsidhukuldeep/data-science-interview-prep
-repo_url: https://github.com/singhsidhukuldeep/data-science-interview-prep
+repo_name: singhsidhukuldeep/singhsidhukuldeep.github.io
+repo_url: https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io
 
 extra:
   social:
@@ -84,8 +84,8 @@ plugins:
       cover_logo: https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2
       copyright: Copyright © 2020 - 2024 Kuldeep Singh Sidhu
       cover_title: The Data Science Book
-      cover_subtitle: https://singhsidhukuldeep.github.io/data-science-interview-prep/
-      output_path: /workspace/data-science-interview-prep/pdf_output/DataScience.pdf
+      cover_subtitle: https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/
+      output_path: /workspace/singhsidhukuldeep.github.io/pdf_output/DataScience.pdf
       back_cover: true
 
 markdown_extensions:
