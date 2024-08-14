@@ -24,6 +24,17 @@ extra:
     - icon: octicons/globe-16
       link: http://kuldeepsinghsidhu.com
 
+  consent:
+    title: Cookie consent
+    actions:
+      - accept
+      - reject
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+
 theme:
   name: material
   custom_dir: overrides
@@ -81,6 +92,7 @@ plugins:
   - mkdocs-jupyter: #https://github.com/danielfrg/mkdocs-jupyter
       execute: false
   - with-pdf:
+      enabled_if_env: ENABLE_PDF_EXPORT
       cover_logo: https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2
       copyright: Copyright © 2020 - 2024 Kuldeep Singh Sidhu
       cover_title: The Data Science Book
@@ -177,6 +189,7 @@ nav:
   - 📳 Projects: projects.md
 
   - Privacy Policy: privacy.md
+  - Contact: contact.md
 
 # Copyright
 copyright: Copyright &copy; 2020 - <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Kuldeep Singh Sidhu</strong>

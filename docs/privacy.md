@@ -3,7 +3,7 @@ title: Privacy Policy
 description: This is a list of projects that you can try yourself and add them to your portfolio.
 ---
 
-# Privacy Policy for https://singhsidhukuldeep.github.io/
+# Privacy Policy for https://singhsidhukuldeep.github.io
 
 ## Introduction
 
