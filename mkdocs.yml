@@ -17,24 +17,33 @@ extra:
       link: https://github.com/singhsidhukuldeep/
     - icon: fontawesome/brands/linkedin
       link: https://linkedin.com/in/singhsidhukuldeep
+    - icon: fontawesome/brands/x-twitter
+      link: https://twitter.com/kuldeep_s_s
     - icon: fontawesome/brands/stack-overflow
       link: https://stackoverflow.com/u/7182350/
     - icon: octicons/globe-16
       link: http://kuldeepsinghsidhu.com
-    - icon: fontawesome/brands/git-alt
-      link: https://github.com/singhsidhukuldeep/data-science-interview-prep
 
 theme:
   name: material
   custom_dir: overrides
 
-#  features:
-#    - tabs
-#    - instant
+  features:
+    # - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.tooltips
+
   icon:
     logo: fontawesome/solid/terminal
     repo: fontawesome/brands/git-alt
 #  favicon: fontawesome/solid/terminal
+
   palette:
 
     # Palette toggle for automatic mode
@@ -159,4 +168,4 @@ nav:
   - 📳 Projects: projects.md
 
 # Copyright
-copyright: Copyright &copy; 2020 - 2021 <strong>Kuldeep Singh Sidhu</strong>
+copyright: Copyright &copy; 2020 - <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Kuldeep Singh Sidhu</strong>
