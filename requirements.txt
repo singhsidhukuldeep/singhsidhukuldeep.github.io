@@ -1,6 +1,7 @@
 mkdocs
 mkdocs-material
 mkdocs-minify-plugin
+mkdocs-simple-plugin
 mkdocs-git-revision-date-localized-plugin
 mkdocs-with-pdf
 mkdocs-jupyter

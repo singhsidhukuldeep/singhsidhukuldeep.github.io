@@ -23,6 +23,8 @@ extra:
       link: https://twitter.com/kuldeep_s_s
     - icon: fontawesome/brands/stack-overflow
       link: https://stackoverflow.com/u/7182350/
+    - icon: hf-logo-pirate
+      link: https://huggingface.co/singhsidhukuldeep
     - icon: octicons/globe-16
       link: http://kuldeepsinghsidhu.com
 
@@ -121,6 +123,7 @@ plugins:
       back_cover: true
 
 markdown_extensions:
+  - attr_list
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -212,4 +215,8 @@ nav:
   - <small>Contact</small>: contact.md
 
 # Copyright
-copyright: Copyright &copy; 2020 - <script>document.write(/\d{4}/.exec(Date())[0])</script> <strong>Kuldeep Singh Sidhu</strong>
+copyright: >-
+  Copyright &copy; 2020 - 
+  <script>document.write(/\d{4}/.exec(Date())[0])</script>
+  • <strong>Kuldeep Singh Sidhu</strong>
+  • <u><a href="/privacy">Privacy Policy</a></u> • <u><a href="/contact">Contact</a></u> • 
