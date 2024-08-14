@@ -1,15 +1,15 @@
 <p align="center">
-  <a href="https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/">
+  <a href="https://singhsidhukuldeep.github.io">
     <img src="https://repository-images.githubusercontent.com/275878203/13719500-bb75-11ea-8f3a-be2ffb87a6a2" width="220" alt="Go to website">
   </a>
 </p>
 
 <!--<p align="center">
-[![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/)
+[![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io)
 </p>-->
 
 <p align="center">
-<a href="https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/"><img src="https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg" alt="Go to website"/></a>
+<a href="https://singhsidhukuldeep.github.io"><img src="https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg" alt="Go to website"/></a>
 </p>
 
 
@@ -24,7 +24,7 @@ Not only this, the platform will also serve as one point destination for all you
 ## Current Status
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/singhsidhukuldeep)
-[![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fsinghsidhukuldeep.github.io%2F)](https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/)
+[![Website shields.io](https://img.shields.io/website?url=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fsinghsidhukuldeep.github.io%2F)](https://singhsidhukuldeep.github.io/)
 [![GitHub pages status](https://img.shields.io/github/deployments/singhsidhukuldeep/singhsidhukuldeep.github.io/github-pages)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/deployments/activity_log?environment=github-pages)
 [![GitHub up-time BOT](https://badgen.net/uptime-robot/month/ur967659-422c6e77bfb79bb6a47c642c)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/deployments/activity_log?environment=github-pages)
 [![Commits](https://img.shields.io/github/last-commit/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/commits/master)
@@ -32,7 +32,7 @@ Not only this, the platform will also serve as one point destination for all you
 
 [![Issues](https://img.shields.io/github/issues/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/issues)
 [![Total Commits](https://badgen.net/github/commits/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/commits/master)
-[![Contributors](https://badgen.net/github/issues-pr/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/graphs/contributors)
+[![Contributors](https://badgen.net/github/contributors/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/graphs/contributors)
 [![Forks](https://badgen.net/github/forks/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/network/members)
 [![Stars](https://badgen.net/github/stars/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/stargazers)
 [![Watchers](https://badgen.net/github/watchers/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/watchers)
@@ -44,7 +44,7 @@ Not only this, the platform will also serve as one point destination for all you
 [![repo- size](https://img.shields.io/github/repo-size/singhsidhukuldeep/singhsidhukuldeep.github.io)](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io)
 [![Followers](https://img.shields.io/github/followers/singhsidhukuldeep?style=plastic&logo=github)](https://github.com/singhsidhukuldeep?tab=followers)
 
-## Content 💻 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/)
+## Content 💻 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/)
 
   - 📅 Suggested Learning Paths
 
@@ -106,18 +106,18 @@ LinkedIn: [Kuldeep Singh Sidhu (LinkedIn)](https://www.linkedin.com/in/singhsidh
 😎 The full list of all the contributors is available [here](https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io/graphs/contributors)
 
 
-[![website](https://forthebadge.com/images/badges/built-with-love.svg)](https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/)
+[![website](https://forthebadge.com/images/badges/built-with-love.svg)](https://singhsidhukuldeep.github.io/)
 
 ## Say Thanks
 
 😊 If this platform helped you in any way, it would be great if you could share it with others.
 
-[![](https://img.shields.io/badge/Share%20to-LinkedIn-blue?logo=linkedin&style=flat&labelColor=blue&color=black)](https://www.linkedin.com/sharing/share-offsite/?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:&url=https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/)
-[![](https://img.shields.io/badge/Share%20to-Twitter-blue?logo=twitter&style=flat&labelColor=black&color=blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:%20%F0%9F%91%89%20https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/%20%F0%9F%91%88%20#data-science%20#machine-learning%20#interview-preparation)
+[![](https://img.shields.io/badge/Share%20to-LinkedIn-blue?logo=linkedin&style=flat&labelColor=blue&color=black)](https://www.linkedin.com/sharing/share-offsite/?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:&url=https://singhsidhukuldeep.github.io/)
+[![](https://img.shields.io/badge/Share%20to-Twitter-blue?logo=twitter&style=flat&labelColor=black&color=blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:%20%F0%9F%91%89%20https://singhsidhukuldeep.github.io/%20%F0%9F%91%88%20#data-science%20#machine-learning%20#interview-preparation)
 [![](https://img.shields.io/badge/Share%20to-Facebook-blue?logo=facebook&style=flat&labelColor=black&color=blue)](https://www.facebook.com/sharer.php?s=100&p[title]=Free%20Data%20Science%20Preperation%20Platform&p[summary]=Check%20out%20this%20&p[url]=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fsinghsidhukuldeep.github.io%2F)
 ![](https://img.shields.io/badge/Share-Copy%20from%20here%20%F0%9F%91%87-blue?logo=stackshare&style=flat&labelColor=black&color=success)
 
-👉 [https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/](https://singhsidhukuldeep.github.io/singhsidhukuldeep.github.io/) 👈
+👉 [https://singhsidhukuldeep.github.io/](https://singhsidhukuldeep.github.io/) 👈
 
 
 <!-- apt-get install -y tzdata
