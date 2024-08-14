@@ -99,7 +99,7 @@ theme:
         name: Switch to system preference
 #plugins
 plugins:
-  - optimize
+  # - optimize
   - search:
       lang:
         - en
