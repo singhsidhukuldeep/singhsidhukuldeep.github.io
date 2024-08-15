@@ -1,6 +1,8 @@
 <p align="center">
   <a href="https://singhsidhukuldeep.github.io">
     <img src="assets/home_page_.png" width="99%" alt="Go to website">
+    <!-- Data Science Interview Prep<br>
+    singhsidhukuldeep.github.io -->
   </a>
 </p>
 
@@ -47,7 +49,7 @@ Not only this, the platform will also serve as one point destination for all you
 [![](https://img.shields.io/badge/Share%20to-LinkedIn-blue?logo=linkedin&style=flat&labelColor=blue&color=black)](https://www.linkedin.com/sharing/share-offsite/?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:&url=https://singhsidhukuldeep.github.io/)
 [![](https://img.shields.io/badge/Share%20to-Twitter-blue?logo=twitter&style=flat&labelColor=black&color=blue)](https://twitter.com/intent/tweet?text=Check%20out%20this%20%F0%9F%91%87%20platform%20%F0%9F%91%87%20for%20data%20science%20content:%20%F0%9F%91%89%20https://singhsidhukuldeep.github.io/%20%F0%9F%91%88%20#data-science%20#machine-learning%20#interview-preparation)
 [![](https://img.shields.io/badge/Share%20to-Facebook-blue?logo=facebook&style=flat&labelColor=black&color=blue)](https://www.facebook.com/sharer.php?s=100&p[title]=Free%20Data%20Science%20Preperation%20Platform&p[summary]=Check%20out%20this%20&p[url]=https%3A%2F%2Fsinghsidhukuldeep.github.io%2Fsinghsidhukuldeep.github.io%2F)
-![](https://img.shields.io/badge/Share-Copy%20from%20here%20%F0%9F%91%87-blue?logo=stackshare&style=flat&labelColor=black&color=success)
+<!-- ![](https://img.shields.io/badge/Share-Copy%20from%20here%20%F0%9F%91%87-blue?logo=stackshare&style=flat&labelColor=black&color=success) -->
   
 <h2 align="center">🌟⭐✨STAR ME✨⭐🌟</h2>
 
