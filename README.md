@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://singhsidhukuldeep.github.io">
-    <img src="assets/home_page_.png" width="90%" alt="Go to website">
+    <img src="assets/home_page_.png" width="99%" alt="Go to website">
   </a>
 </p>
 
