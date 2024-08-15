@@ -3,6 +3,7 @@ mkdocs-material
 mkdocs-minify-plugin
 mkdocs-simple-plugin
 mkdocs-git-revision-date-localized-plugin
+mkdocs-enumerate-headings-plugin
 mkdocs-with-pdf
 mkdocs-jupyter
 qrcode

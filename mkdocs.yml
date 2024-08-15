@@ -11,6 +11,9 @@ site_description: >-
 repo_name: singhsidhukuldeep/singhsidhukuldeep.github.io
 repo_url: https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io
 
+# extra_javascript:
+#   - 'javascripts/xfile.js'
+
 extra:
   generator: false
 
@@ -32,24 +35,24 @@ extra:
     provider: google
     property: G-EVGNTG49J7
 
-  consent:
-    title: Cookie Consent <br><small>Help Us ✌️, Help You 🫵</small>
-    actions:
-      - accept
-      - manage
-    cookies:
-      analytics:
-        name: Google
-        checked: true
-      github:
-        name: GitHub
-        checked: true
-    description: >- 
-      We use cookies to recognize your repeated visits and preferences, improve and offer better services🤗
-      <br>
-      With your consent🤝, you're helping us to give you better experience. 
-      <br>
-      <a herf="https://singhsidhukuldeep.github.io/privacy">Read about privacy policy here<a>
+  # consent:
+  #   title: Cookie Consent <br><small>Help Us ✌️, Help You 🫵</small>
+  #   actions:
+  #     - accept
+  #     - manage
+  #   cookies:
+  #     analytics:
+  #       name: Google
+  #       checked: true
+  #     github:
+  #       name: GitHub
+  #       checked: true
+  #   description: >- 
+  #     We use cookies to recognize your repeated visits and preferences, improve and offer better services🤗
+  #     <br>
+  #     With your consent🤝, you're helping us to give you better experience. 
+  #     <br>
+  #     <a herf="https://singhsidhukuldeep.github.io/privacy">Read about privacy policy here<a>
 
 theme:
   name: material
@@ -102,6 +105,17 @@ theme:
 #plugins
 plugins:
   # - optimize
+  - enumerate-headings:
+        toc_depth: 6
+        strict: true
+        increment_across_pages: false
+        include:
+          - "Interview-Questions/*"
+        # exclude:
+        #   - index.md
+        #   - another_page.md
+        restart_increment_after:
+          - Interview-Questions/*"
   - search:
       lang:
         - en
@@ -129,7 +143,6 @@ markdown_extensions:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.details
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -144,6 +157,9 @@ markdown_extensions:
   - pymdownx.tilde
   - meta
   - codehilite
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 # Page tree
 nav:
