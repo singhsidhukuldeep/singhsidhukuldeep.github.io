@@ -111,8 +111,8 @@ plugins:
         increment_across_pages: false
         include:
           - "Interview-Questions/*"
-        # exclude:
-        #   - index.md
+        exclude:
+          - "Interview-Questions/Interview-Questions.md"
         #   - another_page.md
         restart_increment_after:
           - Interview-Questions/*"
@@ -179,26 +179,26 @@ nav:
       - Tensorflow 2 with Keras: as-fast-as-possible/TF2-Keras.md
 
   - ‍🎓 ML Topics:
-      - Machine-Learning\ARIMA.md
-      - Machine-Learning\Activation functions.md
-      - Machine-Learning\Collaborative Filtering.md
-      - Machine-Learning\Confusion Matrix.md
-      - Machine-Learning\DBSCAN.md
-      - Machine-Learning\Decision Trees.md
-      - Machine-Learning\Gradient Boosting.md
-      - Machine-Learning\K-means clustering.md
-      - Machine-Learning\Linear Regression.md
-      - Machine-Learning\Logistic Regression.md
-      - Machine-Learning\Loss Function MAE, RMSE.md
-      - Machine-Learning\Neural Networks.md
-      - Machine-Learning\Normal Distribution.md
-      - Machine-Learning\Normalization Regularisation.md
-      - Machine-Learning\Overfitting, Underfitting.md
-      - Machine-Learning\PCA.md
-      - Machine-Learning\Random Forest.md
-      - Machine-Learning\Support Vector Machines.md
-      - Machine-Learning\Unbalanced, Skewed data.md
-      - Machine-Learning\kNN.md
+      - ARIMA: Machine-Learning\ARIMA.md
+      - Activation functions: Machine-Learning\Activation functions.md
+      - Collaborative Filtering: Machine-Learning\Collaborative Filtering.md
+      - Confusion Matrix: Machine-Learning\Confusion Matrix.md
+      - DBSCAN: Machine-Learning\DBSCAN.md
+      - Decision Trees: Machine-Learning\Decision Trees.md
+      - Gradient Boosting: Machine-Learning\Gradient Boosting.md
+      - K-means clustering: Machine-Learning\K-means clustering.md
+      - Linear Regression: Machine-Learning\Linear Regression.md
+      - Logistic Regression: Machine-Learning\Logistic Regression.md
+      - Loss Function MAE, RMSE: Machine-Learning\Loss Function MAE, RMSE.md
+      - Neural Networks: Machine-Learning\Neural Networks.md
+      - Normal Distribution: Machine-Learning\Normal Distribution.md
+      - Normalization Regularisation: Machine-Learning\Normalization Regularisation.md
+      - Overfitting, Underfitting: Machine-Learning\Overfitting, Underfitting.md
+      - PCA: Machine-Learning\PCA.md
+      - Random Forest: Machine-Learning\Random Forest.md
+      - Support Vector Machines: Machine-Learning\Support Vector Machines.md
+      - Unbalanced, Skewed data: Machine-Learning\Unbalanced, Skewed data.md
+      - kNN: Machine-Learning\kNN.md
 
   - 📝 Cheat Sheets:
       - Python: Cheat-Sheets/Python.md
@@ -218,10 +218,10 @@ nav:
   - 🎌 Deploying ML Models:
       - Production Deployment: Deploying-ML-models/deploying-ml-models.md
 
-  - 👨🏿‍🏫 Interview Questions:
-      - Software Development:
-          - DSA (Data Structures & Algorithms): Interview-Questions/data-structures-algorithms.md
-          - System Design: Interview-Questions/System-design.md
+  - 👨🏿‍🏫 Interview Questions: 
+      - 👨🏿‍🏫 Interview Questions: Interview-Questions/Interview-Questions.md
+      - DSA (Data Structures & Algorithms): Interview-Questions/data-structures-algorithms.md
+      - System Design: Interview-Questions/System-design.md
       - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
       - Probability: Interview-Questions/Probability.md
 

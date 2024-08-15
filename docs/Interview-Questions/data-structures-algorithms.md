@@ -1,12 +1,8 @@
 ---
 title: Data Structure and Algorithms
 description: Data Structure and algorithms for cracking interviews
-markdown_extensions:
-  - toc:
-      toc_depth: 2-6  # Specify TOC depth to exclude H1
-  - attr_list
-hide:
-  - toc
+# hide:
+#   - toc
 ---
 
 # Data Structure and Algorithms (DSA)
@@ -17,7 +13,7 @@ hide:
 
 [TOC]
 
-## To-do
+## To-do :material-alert-decagram:{ .mdx-pulse title="Need Contributions 🤝" }
 
 - [ ] Add https://leetcode.com/discuss/interview-question/344650/Amazon-Online-Assessment-Questions
 
@@ -48,7 +44,7 @@ hide:
 	an empty array.
 
 	??? example "Try it!"
-		Try on Leetcode: https://leetcode.com/problems/two-sum/
+		- LeetCode: https://leetcode.com/problems/two-sum/
 
 	??? info "Hint 1"
 		No Hint
@@ -105,6 +101,9 @@ hide:
 	A subsequence of an array is a set of numbers that aren't necessarily adjacent in the array but that are in the same order as they appear in the array. For instance, the numbers [1, 3, 4]  form a subsequence of the array [1, 2, 3, 4] , and so do the numbers [2, 4].
 
 	Note that a single number in an array and the array itself are both valid subsequences of the array.
+	
+	??? example "Try it!"
+		- GeeksforGeeks: https://www.geeksforgeeks.org/problems/array-subset-of-another-array2317/1
 
 	??? info "Hint 1"
 		No Hint
@@ -138,9 +137,13 @@ hide:
 
 	Find the nth Nth Fibonacci sequence
 
+	??? example "Try it!"
+		- LeetCode: https://leetcode.com/problems/fibonacci-number/
+		- GeeksforGeeks: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+
+
 	??? info "Hint 1"
 		No Hint
-
 
 	??? success "Answer"
 		```Python
@@ -184,6 +187,10 @@ hide:
 	Eg:
 	Input: `[5, 2, [7, -1], 3, [6, [-13, 8], 4]]`
 	Output: `12 # calculated as: 5 + 2 + 2 * (7 - 1) + 3 + 2 * (6 + 3 * (-13 + 8) + 4)`
+
+	??? example "Try it!"
+		- LeetCode: https://leetcode.com/problems/fibonacci-number/
+		- GeeksforGeeks: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
 
 	??? info "Hint 1"
 		No Hint
@@ -243,6 +250,11 @@ hide:
 	Follow up:
 
 	1.  Try to solve it in *O*(*n* log *k*) time and *O*(*n*) extra space.
+
+
+	??? example "Try it!"
+		- LeetCode: https://leetcode.com/problems/fibonacci-number/
+		- GeeksforGeeks: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
 
 	??? info "Hint 1"
 		No Hint
