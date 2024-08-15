@@ -43,17 +43,55 @@ Not only this, the platform will also serve as one point destination for all you
 
         Distilled down important concepts for your quick reference
 
+        - [Django](Cheat-Sheets/Django.md)
+        - [Flask](Cheat-Sheets/Flask.md)
+        - [Hypothesis Tests](Cheat-Sheets/Hypothesis-Tests.md)
+        - [Keras](Cheat-Sheets/Keras.md)
+        - [NumPy](Cheat-Sheets/NumPy.md)
+        - [Pandas](Cheat-Sheets/Pandas.md)
+        - [PySpark](Cheat-Sheets/PySpark.md)
+        - [PyTorch](Cheat-Sheets/PyTorch.md)
+        - [Python](Cheat-Sheets/Python.md)
+        - [Regular Expressions (RegEx)](Cheat-Sheets/RegEx.md)
+        - [Scikit Learn](Cheat-Sheets/Sk-learn.md)
+        - [SQL](Cheat-Sheets/SQL.md)
+        - [TensorFlow](Cheat-Sheets/tensorflow.md)
+
 -   ??? ml-algo ":octicons-arrow-right-24: __ML Algorithms__"
 
         ---
 
         From scratch implementation and documentation of all ML algorithms
 
+        - [ARIMA](Machine-Learning/ARIMA.md)
+        - [Activation functions](Machine-Learning/Activation%20functions.md)
+        - [Collaborative Filtering](Machine-Learning/Collaborative%20Filtering.md)
+        - [Confusion Matrix](Machine-Learning/Confusion%20Matrix.md)
+        - [DBSCAN](Machine-Learning/DBSCAN.md)
+        - [Decision Trees](Machine-Learning/Decision%20Trees.md)
+        - [Gradient Boosting](Machine-Learning/Gradient%20Boosting.md)
+        - [K-means clustering](Machine-Learning/K-means%20clustering.md)
+        - [Linear Regression](Machine-Learning/Linear%20Regression.md)
+        - [Logistic Regression](Machine-Learning/Logistic%20Regression.md)
+        - [Loss Function MAE, RMSE](Machine-Learning/Loss%20Function%20MAE,%20RMSE.md)
+        - [Neural Networks](Machine-Learning/Neural%20Networks.md)
+        - [Normal Distribution](Machine-Learning/Normal%20Distribution.md)
+        - [Normalization Regularisation](Machine-Learning/Normalization%20Regularisation.md)
+        - [Overfitting, Underfitting](Machine-Learning/Overfitting,%20Underfitting.md)
+        - [PCA](Machine-Learning/PCA.md)
+        - [Random Forest](Machine-Learning/Random%20Forest.md)
+        - [Support Vector Machines](Machine-Learning/Support%20Vector%20Machines.md)
+        - [Unbalanced, Skewed data](Machine-Learning/Unbalanced,%20Skewed%20data.md)
+        - [kNN](Machine-Learning/kNN.md)
+
 -   ??? online-resources ":octicons-arrow-right-24: __Online Resources__"
 
         ---
 
         Most popular and commonly reffered online resources
+
+        - [Online Study Material](Online-Material/Online-Material-for-Learning.md)
+        - [Popular Blogs](Online-Material/popular-resouces.md)
 
 </div>
 
@@ -65,19 +103,53 @@ Not only this, the platform will also serve as one point destination for all you
         * [Cheat-Sheets/Hypothesis-Tests/](/Cheat-Sheets/Hypothesis-Tests/)
 
     === ":person_running: Under Development"
-
-        1. I
-        1. Will
-        1. Update
-        1. Soon
+        
+        
 
     === ":hourglass_flowing_sand: To Do"
 
-        1. I
-        1. Will
-        1. Update
-        1. Soon
+        You can pick anyone, write in `.py`, `.md`, `.txt` or `.ipynb`; I will format it:
 
+        - [Cheat-Sheets/Django](Cheat-Sheets/Django.md)
+        - [Cheat-Sheets/Flask](Cheat-Sheets/Flask.md)
+        - [Cheat-Sheets/Hypothesis-Tests](Cheat-Sheets/Hypothesis-Tests.md)
+        - [Cheat-Sheets/Keras](Cheat-Sheets/Keras.md)
+        - [Cheat-Sheets/NumPy](Cheat-Sheets/NumPy.md)
+        - [Cheat-Sheets/Pandas](Cheat-Sheets/Pandas.md)
+        - [Cheat-Sheets/PySpark](Cheat-Sheets/PySpark.md)
+        - [Cheat-Sheets/PyTorch](Cheat-Sheets/PyTorch.md)
+        - [Cheat-Sheets/Python](Cheat-Sheets/Python.md)
+        - [Cheat-Sheets/RegEx](Cheat-Sheets/RegEx.md)
+        - [Cheat-Sheets/Sk-learn](Cheat-Sheets/Sk-learn.md)
+        - [Cheat-Sheets/SQL](Cheat-Sheets/SQL.md)
+        - [Cheat-Sheets/TensorFlow](Cheat-Sheets/tensorflow.md)
+        - [Machine-Learning/ARIMA](Machine-Learning/ARIMA.md)
+        - [Machine-Learning/Activation-Functions](Machine-Learning/Activation%20functions.md)
+        - [Machine-Learning/Collaborative-Filtering](Machine-Learning/Collaborative%20Filtering.md)
+        - [Machine-Learning/Confusion-Matrix](Machine-Learning/Confusion%20Matrix.md)
+        - [Machine-Learning/DBSCAN](Machine-Learning/DBSCAN.md)
+        - [Machine-Learning/Decision-Trees](Machine-Learning/Decision%20Trees.md)
+        - [Machine-Learning/Gradient-Boosting](Machine-Learning/Gradient%20Boosting.md)
+        - [Machine-Learning/K-means-Clustering](Machine-Learning/K-means%20clustering.md)
+        - [Machine-Learning/Linear-Regression](Machine-Learning/Linear%20Regression.md)
+        - [Machine-Learning/Logistic-Regression](Machine-Learning/Logistic%20Regression.md)
+        - [Machine-Learning/Loss-Function-MAE-RMSE](Machine-Learning/Loss%20Function%20MAE,%20RMSE.md)
+        - [Machine-Learning/Neural-Networks](Machine-Learning/Neural%20Networks.md)
+        - [Machine-Learning/Normal-Distribution](Machine-Learning/Normal%20Distribution.md)
+        - [Machine-Learning/Normalization-Regularisation](Machine-Learning/Normalization%20Regularisation.md)
+        - [Machine-Learning/Overfitting-Underfitting](Machine-Learning/Overfitting,%20Underfitting.md)
+        - [Machine-Learning/PCA](Machine-Learning/PCA.md)
+        - [Machine-Learning/Random-Forest](Machine-Learning/Random%20Forest.md)
+        - [Machine-Learning/Support-Vector-Machines](Machine-Learning/Support%20Vector%20Machines.md)
+        - [Machine-Learning/Unbalanced-Skewed-Data](Machine-Learning/Unbalanced,%20Skewed%20data.md)
+        - [Machine-Learning/kNN](Machine-Learning/kNN.md)
+        - [Online-Material/Online-Material-for-Learning](Online-Material/Online-Material-for-Learning.md)
+        - [Online-Material/Popular-Blogs](Online-Material/popular-resouces.md)
+        - [Interview-Questions/DSA](Interview-Questions/data-structures-algorithms.md)
+        - [Interview-Questions/System-Design](Interview-Questions/System-design.md)
+        - [Interview-Questions/Natural-Language-Processing](Interview-Questions/Natural-Language-Processing.md)
+        - [Interview-Questions/Probability](Interview-Questions/Probability.md)
+                
 
 
 

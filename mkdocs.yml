@@ -112,6 +112,7 @@ plugins:
         increment_across_pages: false
         include:
           - "Interview-Questions/*"
+          - "Cheat-Sheets/*"
         exclude:
           - "Interview-Questions/Interview-Questions.md"
         #   - another_page.md
@@ -180,19 +181,19 @@ nav:
       - Probability: Interview-Questions/Probability.md
   
   - 📝 Cheat Sheets:
-      - Python: Cheat-Sheets/Python.md
+      - Django: Cheat-Sheets/Django.md
+      - Flask: Cheat-Sheets/Flask.md
+      - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
+      - Keras: Cheat-Sheets/Keras.md
       - NumPy: Cheat-Sheets/NumPy.md
       - Pandas: Cheat-Sheets/Pandas.md
-      - Scikit Learn: Cheat-Sheets/Sk-learn.md
-      - Keras: Cheat-Sheets/Keras.md
-      - PyTorch: Cheat-Sheets/PyTorch.md
-      - TensorFlow: Cheat-Sheets/tensorflow.md
-      - SQL: Cheat-Sheets/SQL.md
-      - Regular Expressions (RegEx): Cheat-Sheets/RegEx.md
-      - Flask: Cheat-Sheets/Flask.md
-      - Django: Cheat-Sheets/Django.md
       - PySpark: Cheat-Sheets/PySpark.md
-      - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
+      - PyTorch: Cheat-Sheets/PyTorch.md
+      - Python: Cheat-Sheets/Python.md
+      - Regular Expressions (RegEx): Cheat-Sheets/RegEx.md
+      - Scikit Learn: Cheat-Sheets/Sk-learn.md
+      - SQL: Cheat-Sheets/SQL.md
+      - TensorFlow: Cheat-Sheets/tensorflow.md
 
   - ‍🎓 ML Topics:
       - ARIMA: Machine-Learning\ARIMA.md
@@ -218,7 +219,7 @@ nav:
 
   - 👨🏾‍💻 Online Resources:
       - Online Study Material: Online-Material/Online-Material-for-Learning.md
-      - Popular Blogs: Online-Material/popular-resouces.md
+      - Popular Blogs: Online-Material/popular-resources.md
 
   # - 🚴🏽‍♀ As fast as possible:
   #     - Introduction: as-fast-as-possible/index.md

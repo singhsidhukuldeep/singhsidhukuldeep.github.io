@@ -5,6 +5,8 @@ description: A cheat sheet for the most popular statistical hypothesis tests for
 
 # Hypothesis Tests in Python
 
+[TOC]
+
 A [**statistical hypothesis test**](https://en.wikipedia.org/wiki/Statistical_hypothesis_testing) is a method of [statistical inference](https://en.wikipedia.org/wiki/Statistical_inference "Statistical inference") used to decide whether the data at hand sufficiently support a particular hypothesis. Hypothesis testing allows us to make probabilistic statements about population parameters.
 
 **Few Notes:**
@@ -12,6 +14,7 @@ A [**statistical hypothesis test**](https://en.wikipedia.org/wiki/Statistical_h
 - When it comes to assumptions such as the expected distribution of data or sample size, the results of a given test are likely to degrade gracefully rather than become immediately unusable if an assumption is violated.
 - Generally, data samples need to be representative of the domain and large enough to expose their distribution to analysis.
 - In some cases, the data can be corrected to meet the assumptions, such as correcting a nearly normal distribution to be normal by removing outliers, or using a correction to the degrees of freedom in a statistical test when samples have differing variance, to name two examples.
+
 
 ## Normality Tests
 

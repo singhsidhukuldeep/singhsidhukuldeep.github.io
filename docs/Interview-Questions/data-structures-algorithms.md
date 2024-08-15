@@ -253,8 +253,7 @@ description: Data Structure and algorithms for cracking interviews
 
 
 	??? example "Try it!"
-		- LeetCode: https://leetcode.com/problems/fibonacci-number/
-		- GeeksforGeeks: https://www.geeksforgeeks.org/problems/nth-fibonacci-number1335/1
+		- LeetCode: https://leetcode.com/problems/top-k-frequent-words/
 
 	??? info "Hint 1"
 		No Hint
