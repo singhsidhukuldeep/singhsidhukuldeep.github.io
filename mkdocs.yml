@@ -13,7 +13,8 @@ repo_url: https://github.com/singhsidhukuldeep/singhsidhukuldeep.github.io
 
 # extra_javascript:
 #   - 'javascripts/xfile.js'
-
+extra_css:
+  - 'stylesheets/extra.css'
 extra:
   generator: false
 
@@ -138,6 +139,7 @@ plugins:
 
 markdown_extensions:
   - attr_list
+  - md_in_html
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
@@ -153,7 +155,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
-  - pymdownx.tabbed
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.tilde
   - meta
   - codehilite
@@ -165,18 +168,31 @@ markdown_extensions:
 nav:
   - 🏡 Home: index.md
 
-  - 📅 Suggested Learning Paths: Suggested-Learning-Paths.md
+  # - 😬 Introduction: Introduction.md
 
-  - 👨🏾‍💻 Online Resources:
-      - Online Study Material: Online-Material/Online-Material-for-Learning.md
-      - Popular Blogs: Online-Material/popular-resouces.md
+  # - 📅 Suggested Learning Paths: Suggested-Learning-Paths.md
 
-  - 🚴🏽‍♀ As fast as possible:
-      - Introduction: as-fast-as-possible/index.md
-      - Neural Networks: as-fast-as-possible/Neural-Networks.md
-      - Deep Natural Language Processing: as-fast-as-possible/Deep-NLP.md
-      - Deep Computer Vision: as-fast-as-possible/Deep-CV.md
-      - Tensorflow 2 with Keras: as-fast-as-possible/TF2-Keras.md
+  - 👨🏿‍🏫 Interview Questions: 
+      # - 👨🏿‍🏫 Interview Questions: Interview-Questions/Interview-Questions.md
+      - DSA (Data Structures & Algorithms): Interview-Questions/data-structures-algorithms.md
+      - System Design: Interview-Questions/System-design.md
+      - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
+      - Probability: Interview-Questions/Probability.md
+  
+  - 📝 Cheat Sheets:
+      - Python: Cheat-Sheets/Python.md
+      - NumPy: Cheat-Sheets/NumPy.md
+      - Pandas: Cheat-Sheets/Pandas.md
+      - Scikit Learn: Cheat-Sheets/Sk-learn.md
+      - Keras: Cheat-Sheets/Keras.md
+      - PyTorch: Cheat-Sheets/PyTorch.md
+      - TensorFlow: Cheat-Sheets/tensorflow.md
+      - SQL: Cheat-Sheets/SQL.md
+      - Regular Expressions (RegEx): Cheat-Sheets/RegEx.md
+      - Flask: Cheat-Sheets/Flask.md
+      - Django: Cheat-Sheets/Django.md
+      - PySpark: Cheat-Sheets/PySpark.md
+      - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
 
   - ‍🎓 ML Topics:
       - ARIMA: Machine-Learning\ARIMA.md
@@ -200,30 +216,19 @@ nav:
       - Unbalanced, Skewed data: Machine-Learning\Unbalanced, Skewed data.md
       - kNN: Machine-Learning\kNN.md
 
-  - 📝 Cheat Sheets:
-      - Python: Cheat-Sheets/Python.md
-      - NumPy: Cheat-Sheets/NumPy.md
-      - Pandas: Cheat-Sheets/Pandas.md
-      - Scikit Learn: Cheat-Sheets/Sk-learn.md
-      - Keras: Cheat-Sheets/Keras.md
-      - PyTorch: Cheat-Sheets/PyTorch.md
-      - TensorFlow: Cheat-Sheets/tensorflow.md
-      - SQL: Cheat-Sheets/SQL.md
-      - Regular Expressions (RegEx): Cheat-Sheets/RegEx.md
-      - Flask: Cheat-Sheets/Flask.md
-      - Django: Cheat-Sheets/Django.md
-      - PySpark: Cheat-Sheets/PySpark.md
-      - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
+  - 👨🏾‍💻 Online Resources:
+      - Online Study Material: Online-Material/Online-Material-for-Learning.md
+      - Popular Blogs: Online-Material/popular-resouces.md
 
-  - 🎌 Deploying ML Models:
-      - Production Deployment: Deploying-ML-models/deploying-ml-models.md
+  # - 🚴🏽‍♀ As fast as possible:
+  #     - Introduction: as-fast-as-possible/index.md
+  #     - Neural Networks: as-fast-as-possible/Neural-Networks.md
+  #     - Deep Natural Language Processing: as-fast-as-possible/Deep-NLP.md
+  #     - Deep Computer Vision: as-fast-as-possible/Deep-CV.md
+  #     - Tensorflow 2 with Keras: as-fast-as-possible/TF2-Keras.md
 
-  - 👨🏿‍🏫 Interview Questions: 
-      - 👨🏿‍🏫 Interview Questions: Interview-Questions/Interview-Questions.md
-      - DSA (Data Structures & Algorithms): Interview-Questions/data-structures-algorithms.md
-      - System Design: Interview-Questions/System-design.md
-      - Natural Language Processing (NLP): Interview-Questions/Natural-Language-Processing.md
-      - Probability: Interview-Questions/Probability.md
+  # - 🎌 Deploying ML Models:
+  #     - Production Deployment: Deploying-ML-models/deploying-ml-models.md
 
   - 📳 Projects: projects.md
 
