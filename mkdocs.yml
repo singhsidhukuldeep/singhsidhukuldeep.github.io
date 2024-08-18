@@ -72,6 +72,7 @@ theme:
     - navigation.instant.progress
     - navigation.path
     - navigation.top
+    - toc.follow
 
   icon:
     logo: fontawesome/solid/terminal
