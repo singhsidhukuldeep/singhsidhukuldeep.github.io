@@ -21,7 +21,7 @@ This is a completely open-source platform for maintaining curated list of interv
 
 Not only this, the platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
 
-**This platform is maintained by you!** 🤗 You can <a href="https://singhsidhukuldeep.github.io/Contribute"><u>help us</u></a> by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews. You can also improve topics and articles.
+**This platform is maintained by you!** 🤗 You can <a href="https://singhsidhukuldeep.github.io/Contribute"><u>*help us*</u></a> by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews. You can also improve topics and articles.
 
 ## Content 💻 [![website](https://img.shields.io/badge/GO%20TO%20WEBSITE-Data%20Science%20Interview%20preparation-%3CCOLOR%3E.svg)](https://singhsidhukuldeep.github.io/)
 
