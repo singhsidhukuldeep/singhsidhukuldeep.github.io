@@ -233,6 +233,8 @@ nav:
 
   - 📳 Projects: projects.md
 
+  - 🤝 Contribute: Contribute.md
+
   - <small>Privacy Policy</small>: privacy.md
   - <small>Contact</small>: contact.md
 
@@ -241,4 +243,6 @@ copyright: >-
   Copyright &copy; 2020 - 
   <script>document.write(/\d{4}/.exec(Date())[0])</script>
   • <strong>Kuldeep Singh Sidhu</strong>
-  • <u><a href="/privacy">Privacy Policy</a></u> • <u><a href="/contact">Contact</a></u> • 
+  • <u><a href="https://choosealicense.com/licenses/agpl-3.0/" target=”_blank”>License</a></u> 
+  • <u><a href="/privacy">Privacy Policy</a></u> • <u><a href="/contact">Contact</a></u> 
+  •

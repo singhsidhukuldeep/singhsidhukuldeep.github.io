@@ -20,7 +20,7 @@ This is a completely open-source platform for maintaining curated list of interv
 
 Not only this, the platform will also serve as one point destination for all your needs like tutorials, online materials, etc.
 
-**This platform is maintained by you!** 🤗 You can help us by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews.
+**This platform is maintained by you!** 🤗 You can <a href="/Contribute"><u>help us</u></a> by answering/ improving existing questions as well as by sharing any new questions that you faced during your interviews. You can also improve topics and articles.
 
 <div class="grid cards" markdown>
 
@@ -108,7 +108,9 @@ Not only this, the platform will also serve as one point destination for all you
 
     === ":hourglass_flowing_sand: To Do"
 
-        You can pick anyone, write in `.py`, `.md`, `.txt` or `.ipynb`; I will format it:
+        Learn about <a href="/Contribute">How to contribute?</a>
+        <br>
+        You can pick anyone, write in `.py`, `.md`, `.txt` or `.ipynb`; I will format it!
 
         - [Cheat-Sheets/Django](Cheat-Sheets/Django.md)
         - [Cheat-Sheets/Flask](Cheat-Sheets/Flask.md)

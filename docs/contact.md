@@ -1,6 +1,8 @@
 ---
 title: Contact
-description: This is a list of projects that you can try yourself and add them to your portfolio.
+description: Contact for https://singhsidhukuldeep.github.io
+hide: 
+    -toc
 ---
 
 # Contact for https://singhsidhukuldeep.github.io
