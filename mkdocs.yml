@@ -185,7 +185,7 @@ nav:
       - Flask: Cheat-Sheets/Flask.md
       - Hypothesis Tests: Cheat-Sheets/Hypothesis-Tests.md
       - Keras: Cheat-Sheets/Keras.md
-      - NumPy: Cheat-Sheets/NumPy.md
+      - NumPy: Cheat-Sheets/NumPy.ipynb
       - Pandas: Cheat-Sheets/Pandas.md
       - PySpark: Cheat-Sheets/PySpark.md
       - PyTorch: Cheat-Sheets/PyTorch.md
