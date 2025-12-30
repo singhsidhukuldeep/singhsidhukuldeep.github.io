@@ -5,9 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kuldeep Singh Sidhu</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <style>
         :root {
             --bg-color: #111111;
@@ -40,6 +44,8 @@
             max-width: 1200px;
             /* Increased to allow single line text */
             width: 100%;
+            position: relative;
+            z-index: 10;
         }
 
         h1 {
@@ -90,8 +96,8 @@
             display: flex;
             flex-wrap: wrap;
             gap: 2.5rem;
-            font-size: 1.1rem;
-            /* Slightly larger links */
+            font-size: 0.95rem;
+            /* Smaller size as requested */
             font-weight: 300;
             color: var(--muted-color);
         }
@@ -101,6 +107,22 @@
             text-decoration: none;
             transition: color 0.2s;
             position: relative;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            /* Space between icon and text */
+        }
+
+        .links a span {
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .fade-link span {
+            display: inline-block;
+            min-width: 150px;
+            /* Fixed width to prevent flicker loop */
+            white-space: nowrap;
+            /* Prevent wrapping */
         }
 
         .links a:hover {
@@ -120,6 +142,7 @@
             display: flex;
             flex-direction: column;
             gap: 1rem;
+            z-index: 10;
         }
 
         .footer-social-links {
@@ -224,13 +247,78 @@
             animation-delay: 0.8s;
         }
 
-        .footer-container {
+        .links a:nth-child(3) {
+            animation-delay: 0.9s;
+        }
+
+        .links a:nth-child(4) {
             animation-delay: 1.0s;
+        }
+
+        .footer-container {
+            animation-delay: 1.2s;
+            /* Pushed back slightly to accommodate extra links */
+        }
+
+        /* Ambient Glare */
+        .glare {
+            position: absolute;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(251, 191, 36, 0.20) 0%, rgba(0, 0, 0, 0) 70%);
+            /* boosted opacity to 0.20 */
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* Centered initially */
+            pointer-events: none;
+            z-index: 0;
+            /* brought forward */
+            border-radius: 50%;
+            filter: blur(80px);
+            opacity: 0;
+            /* Start hidden for enter animation */
+            animation: fadeIn 2s ease-out forwards;
+        }
+
+        .glare-purple {
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.25) 0%, rgba(0, 0, 0, 0) 70%);
+            /* Purple */
+            top: 40%;
+            /* Slightly offset */
+            left: 60%;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+            z-index: 0;
+            border-radius: 50%;
+            filter: blur(90px);
+            opacity: 0;
+            animation: fadeIn 2.5s ease-out forwards;
+            /* Slightly slower fade */
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+            }
+        }
+
+        .disabled-link {
+            cursor: not-allowed;
+            color: #7f7f7f !important;
+            /* Lighter grey for better visibility */
+            /* pointer-events: none; REMOVED to allow hover scramble */
         }
     </style>
 </head>
 
 <body>
+
+    <div class="glare"></div>
+    <div class="glare-purple"></div>
 
     <div class="container">
         <div class="intro-text">
@@ -244,8 +332,26 @@
         <div class="divider"></div>
 
         <nav class="links">
-            <a href="https://dsprep.com/" target="_blank">Crack DS Interviews</a>
-            <a href="https://OnlineToolsVault.com" target="_blank">Your Everyday Tools</a>
+            <a href="https://dsprep.com/" target="_blank" class="fade-link" data-original="Crack DS Interviews"
+                data-hover-text="dsprep.com">
+                <ion-icon name="rocket-outline"></ion-icon>
+                <span>Crack DS Interviews</span>
+            </a>
+            <a href="https://OnlineToolsVault.com" target="_blank" class="fade-link" data-original="Your Everyday Tools"
+                data-hover-text="OnlineToolsVault.com">
+                <ion-icon name="hammer-outline"></ion-icon>
+                <span>Your Everyday Tools</span>
+            </a>
+            <a href="javascript:void(0)" class="scramble-link disabled-link" data-original="MDresearchAI.com"
+                data-hover-text="Under Development">
+                <ion-icon name="flask-outline"></ion-icon>
+                <span>MDresearchAI.com</span>
+            </a>
+            <a href="javascript:void(0)" class="scramble-link disabled-link" data-original="SoulGita.com"
+                data-hover-text="Under Development">
+                <ion-icon name="book-outline"></ion-icon>
+                <span>SoulGita.com</span>
+            </a>
         </nav>
     </div>
 
@@ -267,28 +373,105 @@
         // Interaction Script
         const container = document.querySelector('.container');
         const footer = document.querySelector('.footer-container');
+        const glare = document.querySelector('.glare');
+        const glarePurple = document.querySelector('.glare-purple');
 
         // Desktop: Mouse Movement
         document.addEventListener('mousemove', (e) => {
             const x = (window.innerWidth / 2 - e.clientX) / 50;
             const y = (window.innerHeight / 2 - e.clientY) / 50;
 
+            // Content standard parallax
             container.style.transform = `translate(${x}px, ${y}px)`;
             footer.style.transform = `translate(${x}px, ${y}px)`;
+
+            // Yellow Glare moves WITH mouse (slower)
+            const glareX = (e.clientX - window.innerWidth / 2) / 20;
+            const glareY = (e.clientY - window.innerHeight / 2) / 20;
+            glare.style.transform = `translate(calc(-50% + ${glareX}px), calc(-50% + ${glareY}px))`;
+
+            // Purple Glare moves WITH mouse (even slower and inverted Y for "dancing" effect)
+            const purpleX = (e.clientX - window.innerWidth / 2) / 30;
+            const purpleY = -(e.clientY - window.innerHeight / 2) / 30;
+            glarePurple.style.transform = `translate(calc(-50% + ${purpleX}px), calc(-50% + ${purpleY}px))`;
         });
 
         // Mobile: Device Orientation (Gyroscope)
         if (window.DeviceOrientationEvent) {
             window.addEventListener('deviceorientation', (e) => {
-                // Gamma is left/right tilt (-90 to 90)
-                // Beta is front/back tilt (-180 to 180)
                 const x = (e.gamma) / 4;
-                const y = (e.beta - 45) / 4; // Subtract 45 to account for natural holding angle
+                const y = (e.beta - 45) / 4;
 
                 container.style.transform = `translate(${x}px, ${y}px)`;
                 footer.style.transform = `translate(${x}px, ${y}px)`;
+
+                // Yellow Glare
+                const gx = -(e.gamma) / 2;
+                const gy = -(e.beta - 45) / 2;
+                glare.style.transform = `translate(calc(-50% + ${gx}px), calc(-50% + ${gy}px))`;
+                // Purple Glare
             });
         }
+        // Text Effects System
+        const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()";
+
+        // 1. Scramble Effect (for Under Development)
+        document.querySelectorAll('.scramble-link').forEach(link => {
+            let interval = null;
+            const textSpan = link.querySelector('span'); // Target the span
+            const originalText = link.dataset.original;
+            const targetText = link.dataset.hoverText;
+
+            const startScramble = (finalText) => {
+                let iteration = 0;
+                clearInterval(interval);
+
+                interval = setInterval(() => {
+                    textSpan.innerText = finalText
+                        .split("")
+                        .map((letter, index) => {
+                            if (index < iteration) return finalText[index];
+                            return letters[Math.floor(Math.random() * letters.length)];
+                        })
+                        .join("");
+
+                    if (iteration >= finalText.length) clearInterval(interval);
+                    iteration += 1 / 2;
+                }, 30);
+            };
+
+            link.onmouseenter = () => startScramble(targetText);
+            link.onmouseleave = () => startScramble(originalText);
+            link.ontouchstart = () => startScramble(targetText);
+            link.ontouchend = () => setTimeout(() => startScramble(originalText), 1000);
+        });
+
+        // 2. Fade Effect (for Live Projects)
+        document.querySelectorAll('.fade-link').forEach(link => {
+            const textSpan = link.querySelector('span');
+            const originalText = link.dataset.original;
+            const targetText = link.dataset.hoverText;
+
+            const fadeTo = (text) => {
+                textSpan.style.opacity = '0'; // Fade out
+                setTimeout(() => {
+                    textSpan.innerText = text; // Swap text
+                    textSpan.style.opacity = '1'; // Fade in
+                }, 200); // Match CSS transition time
+            };
+
+            link.onmouseenter = () => fadeTo(targetText);
+            link.onmouseleave = () => fadeTo(originalText);
+            link.ontouchstart = () => fadeTo(targetText);
+            link.ontouchend = () => setTimeout(() => fadeTo(originalText), 1000);
+        });
+
+        // Disable clicks for 'disabled-link'
+        document.querySelectorAll('.disabled-link').forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+            });
+        });
     </script>
 
 </body>
