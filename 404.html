@@ -1,0 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirecting... | Kuldeep Singh Sidhu</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <style>
+        :root {
+            --bg: #0a0a0a;
+            --surface: #141414;
+            --surface-2: #1c1c1c;
+            --border: #222222;
+            --border-hover: #333333;
+            --text: #f0f0f0;
+            --text-muted: #6b6b6b;
+            --text-dim: #4a4a4a;
+            --gold: #fbbf24;
+            --gold-glow: rgba(251, 191, 36, 0.4);
+            --purple: #a855f7;
+            --purple-glow: rgba(168, 85, 247, 0.3);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        body {
+            background: var(--bg);
+            color: var(--text);
+            font-family: 'Inter', sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+
+        /* ═══════════════════════════════════
+           GRAIN / NOISE OVERLAY
+           ═══════════════════════════════════ */
+        .noise {
+            position: fixed;
+            inset: 0;
+            z-index: 100;
+            pointer-events: none;
+            opacity: 0.025;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.75' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            background-repeat: repeat;
+            background-size: 200px 200px;
+        }
+
+        /* ═══════════════════════════════════
+           AMBIENT ORB EFFECTS
+           ═══════════════════════════════════ */
+        .orb {
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+            opacity: 0;
+            animation: orbFadeIn 2.5s ease-out forwards;
+        }
+
+        .orb-gold {
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(251, 191, 36, 0.12) 0%, transparent 70%);
+            top: 30%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            filter: blur(80px);
+        }
+
+        .orb-purple {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(168, 85, 247, 0.15) 0%, transparent 70%);
+            top: 55%;
+            left: 65%;
+            transform: translate(-50%, -50%);
+            filter: blur(90px);
+            animation-delay: 0.3s;
+        }
+
+        @keyframes orbFadeIn {
+            to { opacity: 1; }
+        }
+
+        /* ═══════════════════════════════════
+           TOP PROGRESS BAR
+           ═══════════════════════════════════ */
+        .top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            background: #1a1a1a;
+            z-index: 200;
+        }
+
+        .top-bar-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--gold), #f59e0b, #ef4444, var(--purple));
+            animation: fillProgress 7s linear forwards;
+            box-shadow: 0 0 12px var(--gold-glow), 0 0 40px rgba(251, 191, 36, 0.15);
+            border-radius: 0 2px 2px 0;
+        }
+
+        @keyframes fillProgress {
+            to { width: 100%; }
+        }
+
+        /* ═══════════════════════════════════
+           PAGE LAYOUT
+           ═══════════════════════════════════ */
+        .page {
+            position: relative;
+            z-index: 10;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 2rem;
+            max-width: 680px;
+            width: 100%;
+        }
+
+        /* ═══════════════════════════════════
+           STAGGERED ENTRANCE ANIMATIONS
+           ═══════════════════════════════════ */
+        @keyframes slideUp {
+            0% {
+                opacity: 0;
+                transform: translateY(24px);
+                filter: blur(8px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+                filter: blur(0);
+            }
+        }
+
+        .anim {
+            opacity: 0;
+            animation: slideUp 0.7s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+        }
+
+        .anim-d1 { animation-delay: 0.1s; }
+        .anim-d2 { animation-delay: 0.2s; }
+        .anim-d3 { animation-delay: 0.35s; }
+        .anim-d4 { animation-delay: 0.5s; }
+        .anim-d5 { animation-delay: 0.65s; }
+        .anim-d6 { animation-delay: 0.75s; }
+        .anim-d7 { animation-delay: 0.85s; }
+        .anim-d8 { animation-delay: 0.95s; }
+        .anim-d9 { animation-delay: 1.05s; }
+        .anim-d10 { animation-delay: 1.2s; }
+
+        /* ═══════════════════════════════════
+           EXIT ANIMATION
+           ═══════════════════════════════════ */
+        .page-exit {
+            animation: pageOut 0.6s cubic-bezier(0.4, 0, 1, 1) forwards;
+        }
+
+        @keyframes pageOut {
+            to {
+                opacity: 0;
+                transform: scale(1.03);
+                filter: blur(12px);
+            }
+        }
+
+        /* ═══════════════════════════════════
+           BRAND
+           ═══════════════════════════════════ */
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            margin-bottom: clamp(1rem, 3vh, 2.5rem);
+        }
+
+        .brand-icon {
+            font-size: 1.1rem;
+        }
+
+        .brand-text {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.65rem;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: var(--text-muted);
+            text-transform: uppercase;
+        }
+
+        /* ═══════════════════════════════════
+           REDIRECT CONTENT
+           ═══════════════════════════════════ */
+        .redirect-label {
+            font-size: 0.85rem;
+            font-weight: 300;
+            color: var(--text-muted);
+            margin-bottom: 0.6rem;
+            letter-spacing: 0.5px;
+        }
+
+        .redirect-domain {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(1.8rem, 5vw, 2.8rem);
+            font-weight: 800;
+            color: var(--gold);
+            margin-bottom: clamp(0.75rem, 2.5vh, 2rem);
+            line-height: 1.2;
+            text-shadow: 0 0 60px var(--gold-glow);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 100%;
+        }
+
+        /* ═══════════════════════════════════
+           PROGRESS BAR (CENTRAL)
+           ═══════════════════════════════════ */
+        .progress-container {
+            width: 100%;
+            max-width: 360px;
+            margin-bottom: clamp(1rem, 3vh, 2.5rem);
+        }
+
+        .progress-track {
+            width: 100%;
+            height: 5px;
+            background: var(--surface-2);
+            border-radius: 10px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress-fill {
+            height: 100%;
+            width: 0%;
+            background: linear-gradient(90deg, var(--gold), var(--purple));
+            border-radius: 10px;
+            animation: fillProgress 7s linear forwards;
+            position: relative;
+        }
+
+        .progress-fill::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 12px;
+            background: var(--gold);
+            border-radius: 50%;
+            box-shadow: 0 0 12px var(--gold-glow), 0 0 30px var(--gold-glow);
+        }
+
+        .progress-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 0.75rem;
+        }
+
+        .countdown {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+            letter-spacing: 0.5px;
+        }
+
+        .progress-percent {
+            font-family: 'Space Mono', monospace;
+            font-size: 0.75rem;
+            color: var(--text-dim);
+        }
+
+        /* ═══════════════════════════════════
+           GRADIENT DIVIDER
+           ═══════════════════════════════════ */
+        .divider-gradient {
+            width: 100%;
+            max-width: 360px;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--border-hover), transparent);
+            margin-bottom: clamp(0.75rem, 2vh, 2rem);
+        }
+
+        /* ═══════════════════════════════════
+           PROJECTS LABEL
+           ═══════════════════════════════════ */
+        .projects-label {
+            font-size: 0.75rem;
+            font-weight: 400;
+            color: var(--text-dim);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: clamp(0.5rem, 1.5vh, 1.25rem);
+        }
+
+        /* ═══════════════════════════════════
+           PROJECT CARDS
+           ═══════════════════════════════════ */
+        .cards-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 0.75rem;
+            width: 100%;
+            max-width: 520px;
+            margin-bottom: clamp(0.75rem, 2vh, 2rem);
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.9rem 1rem;
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 12px;
+            padding: 1px;
+            background: linear-gradient(135deg, var(--gold), var(--purple));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        a.card:hover::before,
+        a.card:focus::before {
+            opacity: 1;
+        }
+
+        a.card:hover,
+        a.card:focus {
+            transform: translateY(-2px);
+            background: var(--surface-2);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            background: var(--surface-2);
+            color: var(--gold);
+            font-size: 1.1rem;
+        }
+
+        .card-favicon {
+            width: 20px;
+            height: 20px;
+            object-fit: contain;
+            border-radius: 3px;
+        }
+
+        .card-content {
+            flex: 1;
+            text-align: left;
+            min-width: 0;
+        }
+
+        .card-content h3 {
+            font-family: 'Syne', sans-serif;
+            font-size: 0.85rem;
+            font-weight: 700;
+            margin-bottom: 0.15rem;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .card-content p {
+            font-size: 0.68rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            line-height: 1.3;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .card-arrow {
+            font-size: 0.9rem;
+            color: var(--text-dim);
+            transition: all 0.3s;
+            flex-shrink: 0;
+        }
+
+        a.card:hover .card-arrow {
+            color: var(--gold);
+            transform: translateX(3px);
+        }
+
+        /* ═══════════════════════════════════
+           FALLBACK LINK
+           ═══════════════════════════════════ */
+        .fallback-link {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+
+        .fallback-link span {
+            color: var(--text-muted);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+            transition: color 0.2s;
+        }
+
+        .fallback-link:hover span {
+            color: var(--gold);
+        }
+
+        /* ═══════════════════════════════════
+           404 PAGE
+           ═══════════════════════════════════ */
+        .four-oh-four {
+            font-family: 'Syne', sans-serif;
+            font-size: clamp(5rem, 15vw, 10rem);
+            font-weight: 800;
+            line-height: 1;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--gold), var(--purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .not-found-text {
+            font-size: 1rem;
+            color: var(--text-muted);
+            font-weight: 300;
+            margin-bottom: 2.5rem;
+        }
+
+        .home-link {
+            font-family: 'Syne', sans-serif;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text);
+            text-decoration: none;
+            padding: 0.75rem 2rem;
+            border: 1px solid var(--border);
+            border-radius: 50px;
+            transition: all 0.3s cubic-bezier(0.22, 1, 0.36, 1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .home-link::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 50px;
+            padding: 1px;
+            background: linear-gradient(135deg, var(--gold), var(--purple));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .home-link:hover::before {
+            opacity: 1;
+        }
+
+        .home-link:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+        }
+
+        .home-link span {
+            display: inline-block;
+            transition: transform 0.3s;
+        }
+
+        .home-link:hover span {
+            transform: translateX(4px);
+        }
+
+        /* ═══════════════════════════════════
+           RESPONSIVE
+           ═══════════════════════════════════ */
+        @media (max-width: 640px) {
+            .page {
+                padding: 1.5rem 1rem;
+            }
+
+            .cards-grid {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 0.5rem;
+            }
+
+            .card {
+                padding: 0.6rem 0.7rem;
+                gap: 0.5rem;
+                border-radius: 10px;
+            }
+
+            .card-icon {
+                width: 28px;
+                height: 28px;
+                border-radius: 6px;
+                font-size: 0.9rem;
+            }
+
+            .card-favicon {
+                width: 16px;
+                height: 16px;
+            }
+
+            .card-content h3 {
+                font-size: 0.75rem;
+            }
+
+            .card-content p {
+                font-size: 0.6rem;
+            }
+
+            .card-arrow {
+                display: none;
+            }
+
+            .progress-container {
+                max-width: 280px;
+            }
+
+            .orb-gold {
+                width: 400px;
+                height: 400px;
+            }
+
+            .orb-purple {
+                width: 300px;
+                height: 300px;
+            }
+        }
+
+        @media (min-width: 641px) and (max-width: 768px) {
+            .cards-grid {
+                max-width: 440px;
+            }
+        }
+
+        /* ═══════════════════════════════════
+           SCROLLBAR (if needed)
+           ═══════════════════════════════════ */
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: var(--bg);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--border);
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Texture overlay -->
+    <div class="noise"></div>
+
+    <!-- Ambient orbs -->
+    <div class="orb orb-gold"></div>
+    <div class="orb orb-purple"></div>
+
+    <!-- Top progress bar -->
+    <div class="top-bar" id="topBar" style="display:none;">
+        <div class="top-bar-fill"></div>
+    </div>
+
+    <!-- ═══════════════════════════════════
+         REDIRECT PAGE
+         ═══════════════════════════════════ -->
+    <main class="page" id="redirectPage" style="display:none;">
+
+        <div class="brand anim anim-d1">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-text">Explore more.</span>
+        </div>
+
+        <p class="redirect-label anim anim-d2">Redirecting you to</p>
+
+        <h1 class="redirect-domain anim anim-d3" id="redirectDomain"></h1>
+
+        <div class="progress-container anim anim-d4">
+            <div class="progress-track">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+            <div class="progress-info">
+                <span class="countdown" id="countdown">Redirecting in 7s</span>
+                <span class="progress-percent" id="progressPercent">0%</span>
+            </div>
+        </div>
+
+        <div class="divider-gradient anim anim-d5"></div>
+
+        <p class="projects-label anim anim-d6">While you're here, explore</p>
+
+        <div class="cards-grid" id="cardsGrid"></div>
+
+        <a class="fallback-link anim anim-d10" id="fallbackLink" href="#">
+            Not redirected? <span>Click here &rarr;</span>
+        </a>
+
+    </main>
+
+    <!-- ═══════════════════════════════════
+         404 PAGE
+         ═══════════════════════════════════ -->
+    <main class="page" id="notFoundPage" style="display:none;">
+
+        <div class="brand anim anim-d1">
+            <span class="brand-icon">⚡</span>
+            <span class="brand-text">Explore more.</span>
+        </div>
+
+        <h1 class="four-oh-four anim anim-d2">404</h1>
+        <p class="not-found-text anim anim-d3">This page doesn&rsquo;t exist.</p>
+        <a href="/" class="home-link anim anim-d4">Go back home <span>&rarr;</span></a>
+
+    </main>
+
+    <script>
+        (function () {
+            // All 8 projects to market — 4 are picked at random each load
+            var allProjects = [
+                { name: 'ProofMD', url: 'https://proofMD.ai', icon: 'medkit-outline', favicon: 'https://proofmd.ai/favicon.png', desc: 'Medical research assistant for clinical decisions' },
+                { name: 'ReplyRunner', url: 'https://ReplyRunner.com', icon: 'megaphone-outline', favicon: 'https://replyrunner.com/fav.svg', desc: 'Reddit & X conversations into marketing channels' },
+                { name: 'TrendingDraft', url: 'https://TrendingDraft.com', icon: 'create-outline', favicon: 'https://trendingdraft.com/favicon.svg', desc: 'Build your personal brand on LinkedIn' },
+                { name: 'fitDietAI', url: 'https://fitDietAI.com', icon: 'nutrition-outline', favicon: 'https://fitdietai.com/favicon.ico', desc: 'Plan your diet one photo at a time' },
+                { name: 'SoulGita', url: 'https://SoulGita.com', icon: 'book-outline', favicon: 'https://soulgita.com/favicon.ico', desc: 'Bhagavad Gita reimagined with AI' },
+                { name: 'DSPrep', url: 'https://DSprep.com', icon: 'rocket-outline', favicon: 'https://dsprep.com/assets/images/favicon.png', desc: 'All-in-one open-source DS interview prep' },
+                { name: 'ToolsVault', url: 'https://OnlineToolsVault.com', icon: 'construct-outline', favicon: 'https://onlinetoolsvault.com/vite.svg', desc: 'Free, private, browser-based everyday tools' },
+                { name: 'TapWhisper', url: 'https://TapWhisper.com', icon: 'mic-outline', favicon: 'https://tapwhisper.com/favicon.png', desc: 'Best voice-to-text for Mac' }
+            ];
+
+            // Fisher-Yates shuffle then pick first 4
+            function pickRandom(arr, n) {
+                var a = arr.slice();
+                for (var i = a.length - 1; i > 0; i--) {
+                    var j = Math.floor(Math.random() * (i + 1));
+                    var tmp = a[i]; a[i] = a[j]; a[j] = tmp;
+                }
+                return a.slice(0, n);
+            }
+
+            function renderCards(projects) {
+                var grid = document.getElementById('cardsGrid');
+                var delays = ['anim-d7', 'anim-d8', 'anim-d9', 'anim-d10'];
+                projects.forEach(function (p, i) {
+                    var card = document.createElement('a');
+                    card.href = p.url;
+                    card.target = '_blank';
+                    card.rel = 'noopener';
+                    card.className = 'card anim ' + delays[i];
+
+                    // Icon container — try favicon, fall back to ionicon
+                    var iconDiv = document.createElement('div');
+                    iconDiv.className = 'card-icon';
+                    if (p.favicon) {
+                        var img = document.createElement('img');
+                        img.src = p.favicon;
+                        img.alt = '';
+                        img.className = 'card-favicon';
+                        img.onerror = function () {
+                            this.parentElement.innerHTML = '<ion-icon name="' + p.icon + '"></ion-icon>';
+                        };
+                        iconDiv.appendChild(img);
+                    } else {
+                        iconDiv.innerHTML = '<ion-icon name="' + p.icon + '"></ion-icon>';
+                    }
+                    card.appendChild(iconDiv);
+
+                    var content = document.createElement('div');
+                    content.className = 'card-content';
+                    content.innerHTML = '<h3>' + p.name + '</h3><p>' + p.desc + '</p>';
+                    card.appendChild(content);
+
+                    var arrow = document.createElement('span');
+                    arrow.className = 'card-arrow';
+                    arrow.innerHTML = '&rarr;';
+                    card.appendChild(arrow);
+
+                    grid.appendChild(card);
+                });
+            }
+
+            var path = window.location.pathname;
+            var isRedirect = path.startsWith('/r/') && path.length > 3;
+
+            if (isRedirect) {
+                // Parse redirect target
+                var target = path.substring(3);
+                try { target = decodeURIComponent(target); } catch (e) {}
+                if (!target.startsWith('http://') && !target.startsWith('https://')) {
+                    target = 'https://' + target;
+                }
+
+                var displayUrl = target.replace(/^https?:\/\//, '');
+
+                document.title = 'Redirecting to ' + displayUrl + ' | Kuldeep Singh Sidhu';
+                document.getElementById('fallbackLink').href = target;
+                document.getElementById('redirectPage').style.display = 'flex';
+                document.getElementById('topBar').style.display = 'block';
+
+                // Set URL text and auto-shrink font to guarantee single line
+                var domainEl = document.getElementById('redirectDomain');
+                domainEl.textContent = displayUrl;
+                // Double-rAF ensures layout is fully computed before measuring
+                requestAnimationFrame(function () {
+                    requestAnimationFrame(function () {
+                        var fs = parseFloat(getComputedStyle(domainEl).fontSize);
+                        while (domainEl.scrollWidth > domainEl.clientWidth && fs > 10) {
+                            fs -= 0.5;
+                            domainEl.style.fontSize = fs + 'px';
+                        }
+                    });
+                });
+
+                // Render 4 random project cards
+                renderCards(pickRandom(allProjects, 4));
+
+                // Countdown
+                var remaining = 7;
+                var countdownEl = document.getElementById('countdown');
+                var percentEl = document.getElementById('progressPercent');
+
+                var countdownInterval = setInterval(function () {
+                    remaining--;
+                    if (remaining > 0) {
+                        countdownEl.textContent = 'Redirecting in ' + remaining + 's';
+                    } else {
+                        countdownEl.textContent = 'Redirecting now...';
+                        clearInterval(countdownInterval);
+                    }
+                }, 1000);
+
+                // Smooth percentage
+                var startTime = Date.now();
+                var duration = 7000;
+                function updatePercent() {
+                    var elapsed = Date.now() - startTime;
+                    var pct = Math.min(Math.round((elapsed / duration) * 100), 100);
+                    percentEl.textContent = pct + '%';
+                    if (pct < 100) requestAnimationFrame(updatePercent);
+                }
+                requestAnimationFrame(updatePercent);
+
+                // Exit animation + redirect
+                setTimeout(function () {
+                    document.getElementById('redirectPage').classList.add('page-exit');
+                    document.getElementById('topBar').style.opacity = '0';
+                    document.getElementById('topBar').style.transition = 'opacity 0.4s';
+                }, 6500);
+
+                setTimeout(function () {
+                    window.location.href = target;
+                }, 7000);
+
+            } else {
+                document.title = 'Page Not Found | Kuldeep Singh Sidhu';
+                document.getElementById('notFoundPage').style.display = 'flex';
+            }
+        })();
+    </script>
+
+</body>
+
+</html>
